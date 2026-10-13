@@ -356,30 +356,28 @@ class MockTestRequestHandler(http.server.SimpleHTTPRequestHandler):
         except Exception as e:
             self.send_error_response(500, f"Error processing submission: {str(e)}")
 
-def run_server(port=8000):
+def run_server(port=None, host="0.0.0.0"):
+    if port is None:
+        port = int(os.environ.get("PORT", 10000))
     STATIC_DIR.mkdir(parents=True, exist_ok=True)
-    server_address = ("127.0.0.1", port)
+    server_address = (host, port)
     
     # Allow port reuse to prevent WinError 10048 during quick restarts
     socketserver.TCPServer.allow_reuse_address = True
     try:
         httpd = socketserver.TCPServer(server_address, MockTestRequestHandler)
         print(f"==================================================")
-        print(f"[IMU CET] Mock Test Server running at http://127.0.0.1:{port}")
+        print(f"[IMU CET] Mock Test Server running at http://{host}:{port}")
         print(f"[STATIC] Serving static assets from: {STATIC_DIR}")
         print(f"[DATABASE] Database linked: {DB_PATH}")
         print(f"==================================================")
         httpd.serve_forever()
     except OSError as e:
-        if port < 8010:
-            print(f"Port {port} busy, attempting port {port+1}...")
-            run_server(port + 1)
-        else:
-            print(f"Could not bind to port: {e}")
-            sys.exit(1)
+        print(f"Could not bind to port {port} on {host}: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
-    port = 8000
+    port = int(os.environ.get("PORT", 10000))
     if len(sys.argv) > 1:
         try:
             port = int(sys.argv[1])
