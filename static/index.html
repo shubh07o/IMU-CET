@@ -13,6 +13,18 @@
   
   <link rel="stylesheet" href="style.css">
 
+  <!-- Progressive Web App (PWA) Configuration -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2563EB">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="IMU CET">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon-512.png">
+  <link rel="icon" type="image/png" href="/icons/favicon.png">
+
   <!-- MathJax 3 Configuration for Mathematics, Physics and Chemistry Formulas -->
   <script>
     window.MathJax = {
@@ -65,6 +77,16 @@
 
       <!-- Right Header Controls -->
       <div class="header-right">
+        <!-- PWA Install Prompt Button -->
+        <button id="btn-install-pwa" class="btn btn-secondary btn-sm pwa-install-btn hidden" title="Install IMU CET App on your device">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 4px; vertical-align: middle;">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span>Install App</span>
+        </button>
+
         <!-- Candidate Profile Badge (Minimalist) -->
         <div class="header-candidate-badge" id="header-candidate-badge" title="Active Candidate Profile">
           <span class="candidate-avatar">CA</span>

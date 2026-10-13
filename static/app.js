@@ -59,6 +59,7 @@
     testHeaderControls: document.getElementById('test-header-controls'),
     timerDisplay: document.getElementById('cbt-timer-display'),
     btnHeaderSubmit: document.getElementById('btn-header-submit'),
+    btnInstallPwa: document.getElementById('btn-install-pwa'),
 
     // Views
     viewDashboard: document.getElementById('view-dashboard'),
@@ -1752,10 +1753,70 @@
     setupProctoringListeners();
   }
 
+  // Progressive Web App (PWA) Support
+  let deferredInstallPrompt = null;
+
+  function registerServiceWorker() {
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then((reg) => {
+            console.log('[PWA] Service Worker registered successfully with scope:', reg.scope);
+            reg.onupdatefound = () => {
+              const installingWorker = reg.installing;
+              if (installingWorker) {
+                installingWorker.onstatechange = () => {
+                  if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    console.log('[PWA] New content is available; please refresh.');
+                  }
+                };
+              }
+            };
+          })
+          .catch((err) => {
+            console.warn('[PWA] Service Worker registration failed:', err);
+          });
+      });
+    }
+  }
+
+  function setupPwaInstallPrompt() {
+    if (!el.btnInstallPwa) return;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Prevent standard browser mini-infobar prompt
+      e.preventDefault();
+      // Store event to trigger later on user tap
+      deferredInstallPrompt = e;
+      // Reveal the custom install button in the navigation header
+      el.btnInstallPwa.classList.remove('hidden');
+    });
+
+    el.btnInstallPwa.addEventListener('click', async () => {
+      if (!deferredInstallPrompt) return;
+      // Show native install prompt modal
+      deferredInstallPrompt.prompt();
+      const choiceResult = await deferredInstallPrompt.userChoice;
+      console.log('[PWA] User install choice:', choiceResult.outcome);
+      deferredInstallPrompt = null;
+      el.btnInstallPwa.classList.add('hidden');
+    });
+
+    window.addEventListener('appinstalled', () => {
+      console.log('[PWA] Application successfully installed.');
+      deferredInstallPrompt = null;
+      if (el.btnInstallPwa) {
+        el.btnInstallPwa.classList.add('hidden');
+      }
+    });
+  }
+
   // Application Entry Point
   document.addEventListener('DOMContentLoaded', () => {
     setupEventListeners();
     loadExams();
+    registerServiceWorker();
+    setupPwaInstallPrompt();
   });
 
 })();

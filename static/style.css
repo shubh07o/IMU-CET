@@ -2577,3 +2577,27 @@ mjx-math {
     font-size: 1.15rem;
   }
 }
+
+/* Progressive Web App (PWA) Install Prompt Styling */
+.pwa-install-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.pwa-install-btn:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+@media (max-width: 640px) {
+  .pwa-install-btn span {
+    display: none;
+  }
+  .pwa-install-btn {
+    padding: 5px 8px;
+  }
+}
+

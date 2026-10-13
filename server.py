@@ -27,6 +27,14 @@ def get_db_connection():
     return conn
 
 class MockTestRequestHandler(http.server.SimpleHTTPRequestHandler):
+    extensions_map = {
+        **http.server.SimpleHTTPRequestHandler.extensions_map,
+        ".json": "application/json",
+        ".webmanifest": "application/manifest+json",
+        ".js": "application/javascript",
+        ".png": "image/png",
+    }
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(STATIC_DIR), **kwargs)
 
@@ -35,6 +43,12 @@ class MockTestRequestHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
+
+        # PWA Service Worker headers
+        if getattr(self, "path", "").endswith("sw.js"):
+            self.send_header("Service-Worker-Allowed", "/")
+            self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+
         super().end_headers()
 
     def do_OPTIONS(self):
