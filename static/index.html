@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMU CET Online CBT Mock Test Portal</title>
+  <meta name="description" content="Clean, modern Computer Based Test (CBT) mock exam portal for Indian Maritime University Common Entrance Test (IMU CET).">
+  
+  <!-- Minimalist Typography: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!-- MathJax 3 Configuration for Mathematics, Physics and Chemistry Formulas -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        packages: {'[+]': ['noerrors']}
+      },
+      options: {
+        enableMenu: false,
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'annotation', 'annotation-xml']
+      },
+      chtml: {
+        scale: 1.05
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body class="theme-light">
+
+  <!-- Global Application Header -->
+  <header id="app-header" class="app-header">
+    <div class="header-container">
+      
+      <!-- Brand Logo & Title -->
+      <div class="header-left">
+        <div class="header-brand" id="brand-home-btn" role="button" tabindex="0" title="Return to Home">
+          <div class="brand-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">IMU CET</span>
+            <span class="brand-badge">Mock Portal</span>
+          </div>
+        </div>
+
+        <!-- Global Navigation Links -->
+        <nav class="header-nav" id="header-nav">
+          <button id="nav-home-btn" class="nav-link active">Home</button>
+          <button id="nav-tests-btn" class="nav-link">Practice Tests</button>
+          <button id="nav-instructions-btn" class="nav-link">Instructions</button>
+          <button id="nav-results-btn" class="nav-link hidden">Results</button>
+        </nav>
+      </div>
+
+      <!-- Right Header Controls -->
+      <div class="header-right">
+        <!-- Candidate Profile Badge (Minimalist) -->
+        <div class="header-candidate-badge" id="header-candidate-badge" title="Active Candidate Profile">
+          <span class="candidate-avatar">CA</span>
+          <span class="candidate-name">Cadet Aspirant</span>
+        </div>
+
+        <!-- Test Mode Header Controls (Active during test) -->
+        <div id="test-header-controls" class="test-header-controls hidden">
+          <!-- Compact Proctoring Status Indicator -->
+          <div class="proctor-status-badge" id="proctor-status-badge" title="Webcam-free browser session integrity monitoring active">
+            <span class="proctor-status-dot"></span>
+            <span id="proctor-status-text">Proctoring Active</span>
+          </div>
+
+          <div class="cbt-timer-card" id="timer-card" role="timer" aria-live="polite">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            <span class="timer-label">Time Remaining:</span>
+            <span id="cbt-timer-display" class="timer-countdown">180:00</span>
+          </div>
+
+          <button id="btn-header-submit" class="btn btn-danger-outline btn-sm">
+            Submit Exam
+          </button>
+        </div>
+
+        <!-- Dashboard Status Indicator -->
+        <div id="header-db-status" class="header-db-status">
+          <span class="status-dot"></span>
+          <span id="db-connection-text">800 Questions Available</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Non-Blocking Proctoring Integrity Warning Banner -->
+  <div id="proctor-warning-banner" class="proctor-warning-banner hidden" role="alert" aria-live="assertive">
+    <div class="proctor-warning-icon">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+        <line x1="12" y1="9" x2="12" y2="13"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+    </div>
+    <div class="proctor-warning-content">
+      <div class="proctor-warning-title" id="proctor-warning-title">Integrity Alert</div>
+      <div class="proctor-warning-msg" id="proctor-warning-msg">Observation message</div>
+    </div>
+    <div class="proctor-warning-actions">
+      <button id="btn-proctor-action" class="btn btn-sm btn-primary">Return to Fullscreen</button>
+      <button id="btn-proctor-dismiss" class="btn btn-sm btn-ghost" aria-label="Dismiss warning">&times;</button>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- VIEW 1: DASHBOARD (EXAM SELECTION) -->
+  <!-- ========================================== -->
+  <main id="view-dashboard" class="view-panel active">
+    <div class="dashboard-container">
+      
+      <!-- Minimalist Dashboard Header -->
+      <header class="dashboard-header">
+        <h1 class="page-heading">Practice Tests</h1>
+      </header>
+
+      <!-- Exam Selection & Filters -->
+      <section class="dashboard-exams-section">
+        <div class="filter-bar">
+          <div class="filter-tabs">
+            <button id="filter-full-btn" class="filter-tab active" data-filter="full">Full Mocks</button>
+            <button id="filter-section-btn" class="filter-tab" data-filter="section">Sectional Practice</button>
+          </div>
+        </div>
+
+        <div id="exams-grid" class="exams-grid">
+          <!-- Dynamically populated from /api/exams -->
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading available examination papers...</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ========================================== -->
+  <!-- VIEW 2: CBT TEST INTERFACE -->
+  <!-- ========================================== -->
+  <main id="view-test" class="view-panel hidden">
+    <!-- Test Sub-header: Candidate Info, Section Selector, and Palette Toggle -->
+    <div class="cbt-sub-header">
+      <div class="sub-header-left">
+        <span class="exam-title-tag" id="cbt-exam-title">IMU CET 2026 (Shift 1)</span>
+        <span class="candidate-tag">Candidate: <strong>Cadet Aspirant</strong></span>
+      </div>
+      
+      <!-- Section Navigation Tabs -->
+      <nav class="section-tabs-bar" id="section-tabs-bar" aria-label="Exam Sections">
+        <!-- Dynamically populated -->
+      </nav>
+
+      <!-- Mobile Palette Toggle Button -->
+      <button id="btn-toggle-palette" class="btn btn-secondary btn-sm btn-palette-toggle" aria-label="Toggle Question Palette">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+        <span>Palette</span>
+      </button>
+    </div>
+
+    <!-- Backdrop for mobile drawer -->
+    <div id="palette-backdrop" class="palette-backdrop hidden"></div>
+
+    <!-- CBT Main Layout: 2 Columns (Question Workspace + Palette Sidebar) -->
+    <div class="cbt-body-layout">
+      
+      <!-- Left Column: Question Workspace -->
+      <section class="cbt-question-workspace">
+        
+        <div class="question-card-header">
+          <div class="q-meta-info">
+            <span class="q-number-pill" id="q-number-pill">Question 1</span>
+            <span class="q-section-badge" id="q-section-badge">Mathematics</span>
+            <span class="q-topic-badge" id="q-topic-badge">Matrices</span>
+            <span class="q-diff-badge" id="q-diff-badge">Medium</span>
+          </div>
+          <div class="q-marking-scheme">
+            <span class="marks-pos">+1.0</span>
+            <span class="marks-neg">-0.25</span>
+          </div>
+        </div>
+
+        <div class="question-scroll-viewport">
+          <!-- Question Statement with LaTeX -->
+          <div class="question-text-box" id="question-text-box">
+            <!-- Rendered Question Text -->
+          </div>
+
+          <!-- Options Container -->
+          <fieldset class="options-fieldset">
+            <legend class="sr-only">Choose one option</legend>
+            <div id="options-container" class="options-container">
+              <!-- Rendered options cards -->
+            </div>
+          </fieldset>
+        </div>
+
+        <!-- CBT Action Bar Footer -->
+        <footer class="cbt-action-footer">
+          <div class="action-footer-left">
+            <button id="btn-mark-review" class="btn btn-warning-subtle">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+              Mark for Review & Next
+            </button>
+            <button id="btn-clear-response" class="btn btn-ghost">
+              Clear Response
+            </button>
+          </div>
+
+          <div class="action-footer-right">
+            <button id="btn-prev-question" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+              Previous
+            </button>
+            <button id="btn-save-next" class="btn btn-primary">
+              Save & Next
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </button>
+            <button id="btn-submit-test" class="btn btn-danger-outline">
+              Submit Test
+            </button>
+          </div>
+        </footer>
+      </section>
+
+      <!-- Right Column: CBT Question Palette -->
+      <aside class="cbt-palette-sidebar" id="cbt-palette-sidebar">
+        <div class="palette-header">
+          <h3 class="palette-title">Question Palette</h3>
+          <div class="palette-header-actions">
+            <span class="palette-active-section" id="palette-section-name">Mathematics</span>
+            <button id="btn-close-palette" class="palette-close-btn" aria-label="Close question palette">&times;</button>
+          </div>
+        </div>
+
+        <!-- CBT Palette Legend -->
+        <div class="palette-legend">
+          <div class="legend-item">
+            <span class="legend-badge badge-answered" id="stat-answered">0</span>
+            <span class="legend-label">Answered</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-badge badge-not-answered" id="stat-not-answered">0</span>
+            <span class="legend-label">Not Answered</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-badge badge-not-visited" id="stat-not-visited">0</span>
+            <span class="legend-label">Not Visited</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-badge badge-review" id="stat-review">0</span>
+            <span class="legend-label">Marked for Review</span>
+          </div>
+          <div class="legend-item legend-item-full">
+            <span class="legend-badge badge-answered-review" id="stat-answered-review">0</span>
+            <span class="legend-label">Answered & Marked</span>
+          </div>
+        </div>
+
+        <!-- Question Grid Matrix -->
+        <div class="palette-grid-wrapper">
+          <div id="palette-grid" class="palette-grid">
+            <!-- Grid of 1..N question buttons -->
+          </div>
+        </div>
+
+        <div class="palette-footer-actions">
+          <button id="btn-palette-summary" class="btn btn-secondary btn-block btn-sm">
+            Paper Summary
+          </button>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ========================================== -->
+  <!-- VIEW 3: RESULTS & IN-DEPTH REVIEW -->
+  <!-- ========================================== -->
+  <main id="view-results" class="view-panel hidden">
+    <div class="results-container">
+      
+      <!-- Minimalist Results Summary Card -->
+      <div class="results-hero-card">
+        <div class="results-header-info">
+          <div>
+            <div class="results-tag">Test Completed</div>
+            <h2 class="results-exam-title" id="res-exam-title">IMU CET 2026 (Shift 1) — Official Scorecard</h2>
+            <p class="results-timestamp" id="res-timestamp">Test Completed</p>
+          </div>
+          <div class="results-top-actions">
+            <button id="btn-download-pdf" class="btn btn-primary btn-sm">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download PDF
+            </button>
+            <button id="btn-retake-exam" class="btn btn-secondary btn-sm">
+              Retake Test
+            </button>
+            <button id="btn-back-dashboard" class="btn btn-secondary btn-sm">
+              Dashboard
+            </button>
+            <button id="btn-print-results" class="btn btn-ghost btn-sm">
+              Print
+            </button>
+          </div>
+        </div>
+
+        <!-- Metric Cards Grid -->
+        <div class="score-showcase-grid">
+          <div class="score-main-card">
+            <div class="score-radial">
+              <span class="score-big" id="res-score">0.00</span>
+              <span class="score-denom" id="res-max-score">/ 200.00</span>
+            </div>
+            <div class="score-label">Total Marks Awarded</div>
+            <div class="score-subtext" id="res-marking-note">Marking: +1.0 per correct, -0.25 per incorrect</div>
+          </div>
+
+          <div class="stat-tiles-row">
+            <div class="stat-tile tile-accuracy">
+              <div class="tile-value" id="res-accuracy">0%</div>
+              <div class="tile-label">Accuracy Rate</div>
+            </div>
+            <div class="stat-tile tile-percentage">
+              <div class="tile-value" id="res-percentage">0%</div>
+              <div class="tile-label">Score Percentage</div>
+            </div>
+            <div class="stat-tile tile-correct">
+              <div class="tile-value" id="res-correct">0</div>
+              <div class="tile-label">Correct Answers</div>
+            </div>
+            <div class="stat-tile tile-incorrect">
+              <div class="tile-value" id="res-incorrect">0</div>
+              <div class="tile-label">Incorrect Answers</div>
+            </div>
+            <div class="stat-tile tile-unanswered">
+              <div class="tile-value" id="res-unanswered">0</div>
+              <div class="tile-label">Unanswered</div>
+            </div>
+            <div class="stat-tile tile-time">
+              <div class="tile-value" id="res-time-spent">0m</div>
+              <div class="tile-label">Time Elapsed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sectional Performance Breakdown -->
+      <section class="sectional-breakdown-section">
+        <h3 class="breakdown-title">Section-wise Performance Breakdown</h3>
+        <div class="table-responsive">
+          <table class="cbt-table" id="sectional-table">
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Total Questions</th>
+                <th>Attempted</th>
+                <th>Correct</th>
+                <th>Incorrect</th>
+                <th>Unanswered</th>
+                <th>Score Obtained</th>
+                <th>Accuracy</th>
+              </tr>
+            </thead>
+            <tbody id="sectional-tbody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Proctoring & Session Integrity Summary Section -->
+      <section class="proctoring-summary-section" id="proctoring-summary-section">
+        <div class="proctoring-summary-card">
+          <div class="proctoring-card-header">
+            <div class="proctoring-card-title-box">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+              <h3 class="breakdown-title" style="margin-bottom: 0;">Session Integrity & Proctoring Summary</h3>
+            </div>
+            <span class="proctor-mode-pill">Webcam-Free Integrity Monitoring</span>
+          </div>
+          
+          <div class="proctoring-stats-grid">
+            <div class="proctor-stat-item">
+              <div class="proctor-stat-number" id="res-proctor-tab-switches">0</div>
+              <div class="proctor-stat-label">Tab Switches</div>
+            </div>
+            <div class="proctor-stat-item">
+              <div class="proctor-stat-number" id="res-proctor-fullscreen-exits">0</div>
+              <div class="proctor-stat-label">Fullscreen Exits</div>
+            </div>
+            <div class="proctor-stat-item">
+              <div class="proctor-stat-number" id="res-proctor-away-time">0s</div>
+              <div class="proctor-stat-label">Time Outside Tab</div>
+            </div>
+            <div class="proctor-stat-item">
+              <div class="proctor-stat-number" id="res-proctor-total-alerts">0</div>
+              <div class="proctor-stat-label">Total Observations</div>
+            </div>
+          </div>
+
+          <!-- Observation Event Log Table -->
+          <div class="proctoring-log-container">
+            <h4 class="proctoring-log-title">Integrity Observation Log:</h4>
+            <div class="table-responsive">
+              <table class="cbt-table proctor-table" id="proctor-log-table">
+                <thead>
+                  <tr>
+                    <th style="width: 50px;">#</th>
+                    <th style="width: 100px;">Time</th>
+                    <th style="width: 160px;">Event Category</th>
+                    <th>Observation Details</th>
+                  </tr>
+                </thead>
+                <tbody id="proctor-log-tbody">
+                  <!-- Dynamically populated -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="proctoring-fairness-note">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/>
+            </svg>
+            <span><strong>Fairness & Privacy Policy:</strong> Browser focus and visibility signals are recorded for session observation only and do not prove misconduct. No camera, microphone, or external recording was accessed or captured. Answers and scores are not penalized or altered.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Question-by-Question Review Section -->
+      <section class="review-questions-section">
+        <div class="review-controls-header">
+          <div>
+            <h3 class="breakdown-title">Question-by-Question Review</h3>
+            <p class="section-caption">Step-by-step solutions, verified answer key, and syllabus classification</p>
+          </div>
+
+          <div class="review-filters-bar">
+            <span class="filter-label">Filter:</span>
+            <button class="review-filter-btn active" data-filter="all">All (<span id="cnt-rev-all">0</span>)</button>
+            <button class="review-filter-btn filter-correct" data-filter="correct">Correct (<span id="cnt-rev-corr">0</span>)</button>
+            <button class="review-filter-btn filter-incorrect" data-filter="incorrect">Incorrect (<span id="cnt-rev-inc">0</span>)</button>
+            <button class="review-filter-btn filter-unanswered" data-filter="unanswered">Unanswered (<span id="cnt-rev-unans">0</span>)</button>
+          </div>
+        </div>
+
+        <div id="review-list" class="review-list">
+          <!-- Dynamically populated review cards -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ========================================== -->
+  <!-- MODAL: TEST INSTRUCTIONS -->
+  <!-- ========================================== -->
+  <div id="modal-instructions" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-instructions-title">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <div>
+          <h3 id="modal-instructions-title" class="modal-title">Test Instructions & Guidelines</h3>
+          <p class="modal-caption" id="modal-instructions-exam-name">IMU CET Computer-Based Examination</p>
+        </div>
+        <button id="btn-close-instructions-x" class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Overview Grid -->
+        <div class="instructions-meta-grid">
+          <div class="inst-meta-box">
+            <span class="inst-meta-label">Duration</span>
+            <span class="inst-meta-value" id="inst-duration-val">180 Minutes</span>
+          </div>
+          <div class="inst-meta-box">
+            <span class="inst-meta-label">Total Questions</span>
+            <span class="inst-meta-value" id="inst-questions-val">200 Questions</span>
+          </div>
+          <div class="inst-meta-box">
+            <span class="inst-meta-label">Marking Scheme</span>
+            <span class="inst-meta-value">+1.0 / -0.25</span>
+          </div>
+          <div class="inst-meta-box">
+            <span class="inst-meta-label">Sections</span>
+            <span class="inst-meta-value">5 Sections</span>
+          </div>
+        </div>
+
+        <div class="instructions-content-block">
+          <h4 class="instructions-heading">General Instructions:</h4>
+          <ul class="instructions-list">
+            <li>The test timer is visible at the top header and will begin counting down as soon as you start. The exam will automatically submit when time expires.</li>
+            <li>Each question has four options (A, B, C, D). Select one option per question.</li>
+            <li><strong>Marking Scheme:</strong> Each correct response awards <strong>+1.0 mark</strong>. Each incorrect response incurs a negative penalty of <strong>-0.25 mark</strong>. Unanswered questions award <strong>0 mark</strong>.</li>
+            <li>You can navigate freely between sections (English, General Aptitude, Mathematics, Physics, Chemistry) and questions at any time using the section tabs or question palette.</li>
+            <li>Use <strong>Save & Next</strong> to confirm an answer, or <strong>Mark for Review & Next</strong> if you wish to re-evaluate it later.</li>
+            <li>You may clear a chosen answer anytime before submitting by clicking <strong>Clear Response</strong>.</li>
+          </ul>
+
+          <h4 class="instructions-heading">Palette Status Indicators:</h4>
+          <div class="instructions-palette-guide">
+            <div class="guide-item"><span class="guide-badge badge-not-visited">1</span> Not Visited yet</div>
+            <div class="guide-item"><span class="guide-badge badge-not-answered">2</span> Visited but Not Answered</div>
+            <div class="guide-item"><span class="guide-badge badge-answered">3</span> Answered</div>
+            <div class="guide-item"><span class="guide-badge badge-review">4</span> Marked for Review</div>
+            <div class="guide-item"><span class="guide-badge badge-answered-review">5</span> Answered & Marked for Review</div>
+          </div>
+
+          <h4 class="instructions-heading">Session Integrity & Privacy Disclosure:</h4>
+          <div class="instructions-privacy-box">
+            <div class="privacy-box-header">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+              <strong>Lightweight Browser Integrity Monitoring (Webcam-Free)</strong>
+            </div>
+            <p>To preserve exam authenticity and simulate CBT testing conditions, this test requests fullscreen mode and monitors window/tab focus during your attempt. Fullscreen exits and tab visibility changes will be logged in your session summary.</p>
+            <ul class="privacy-features-list">
+              <li><strong>100% Privacy-Preserving:</strong> No webcam, microphone, or camera permissions are requested or used.</li>
+              <li><strong>No Media Recording:</strong> No screenshots, audio, or video recordings are captured or transmitted.</li>
+              <li><strong>Fair & Non-Punitive:</strong> Browser events are recorded for integrity observation only; your test will never be auto-submitted or disqualified due to browser focus changes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="btn-modal-instructions-cancel" class="btn btn-secondary">
+          Cancel
+        </button>
+        <button id="btn-modal-instructions-start" class="btn btn-primary">
+          Start Test Now
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- MODAL: CONFIRM SUBMISSION -->
+  <!-- ========================================== -->
+  <div id="modal-confirm-submit" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-submit-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h3 id="modal-submit-title" class="modal-title">Confirm Exam Submission</h3>
+          <p class="modal-caption">Review your attempt summary across sections before finalizing.</p>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div class="table-responsive">
+          <table class="cbt-table modal-summary-table">
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Total</th>
+                <th>Answered</th>
+                <th>Not Answered</th>
+                <th>Marked for Review</th>
+              </tr>
+            </thead>
+            <tbody id="modal-summary-tbody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+        
+        <div class="modal-warning-box">
+          <p>Once submitted, you will not be able to change your answers. Your detailed scorecard and explanations will be generated immediately.</p>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="btn-modal-cancel" class="btn btn-secondary">
+          Return to Test
+        </button>
+        <button id="btn-modal-confirm" class="btn btn-primary">
+          Confirm & Submit
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Toast Notification for PDF Download Feedback -->
+  <div id="pdf-toast" class="pdf-toast hidden" role="status" aria-live="polite">
+    <div class="pdf-toast-icon">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+    </div>
+    <div class="pdf-toast-text" id="pdf-toast-text">
+      Downloading your official Scorecard & Response PDF...
+    </div>
+  </div>
+
+  <!-- Client-side PDF Generation Engine -->
+  <script src="html2pdf.bundle.min.js"></script>
+
+  <!-- Client Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>

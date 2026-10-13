@@ -1,0 +1,16 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Local Scratch, Backups & Temporary Test Artifacts
+scratch/
+backups/
+antygravity skills.txt
+
+# OS & Environment Files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
