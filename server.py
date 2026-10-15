@@ -41,7 +41,10 @@ def discover_chapters():
         db_files = list(item.glob("*.db"))
         for dbf in db_files:
             try:
-                conn = sqlite3.connect(f"file:{dbf.resolve()}?mode=ro", uri=True)
+                try:
+                    conn = sqlite3.connect(f"file:{dbf.resolve()}?mode=ro", uri=True)
+                except sqlite3.OperationalError:
+                    conn = sqlite3.connect(str(dbf.resolve()))
                 conn.row_factory = sqlite3.Row
                 cur = conn.cursor()
                 cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='questions'")
@@ -130,15 +133,19 @@ class MockTestRequestHandler(http.server.SimpleHTTPRequestHandler):
         super().__init__(*args, directory=str(STATIC_DIR), **kwargs)
 
     def end_headers(self):
-        # Enable CORS and disable aggressive caching for API
+        # Enable CORS and disable aggressive caching for API & Core scripts
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
 
-        # PWA Service Worker headers
-        if getattr(self, "path", "").endswith("sw.js"):
-            self.send_header("Service-Worker-Allowed", "/")
+        req_path = getattr(self, "path", "")
+        # Service Worker & Dynamic assets: prevent stale cache on updates
+        if req_path.endswith("sw.js") or req_path.endswith(".html") or req_path.endswith(".js") or req_path in ["", "/"] or req_path.startswith("/api/"):
             self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+            self.send_header("Pragma", "no-cache")
+            self.send_header("Expires", "0")
+            if req_path.endswith("sw.js"):
+                self.send_header("Service-Worker-Allowed", "/")
 
         super().end_headers()
 

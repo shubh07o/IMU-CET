@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3.2">
 
   <!-- Progressive Web App (PWA) Configuration -->
   <link rel="manifest" href="/manifest.json">
@@ -160,11 +160,9 @@
       <section class="dashboard-exams-section">
         <div class="filter-bar">
           <div class="filter-tabs">
-            <button id="filter-full-btn" class="filter-tab active" data-filter="full">Full Mocks (200 Qs)</button>
-            <button id="filter-section-btn" class="filter-tab" data-filter="section">Sectional Practice</button>
-            <button id="filter-chapter-btn" class="filter-tab" data-filter="chapter">
-              <span class="chapter-tab-badge">Chapters</span> Chapter Mocks
-            </button>
+            <button id="filter-full-btn" class="filter-tab active" data-filter="full" onclick="window.switchFilter && window.switchFilter('full')">Full Mocks (200 Qs)</button>
+            <button id="filter-section-btn" class="filter-tab" data-filter="section" onclick="window.switchFilter && window.switchFilter('section')">Sectional Practice</button>
+            <button id="filter-chapter-btn" class="filter-tab" data-filter="chapter" onclick="window.switchFilter && window.switchFilter('chapter')">Chapter Mocks</button>
           </div>
         </div>
 
@@ -663,6 +661,6 @@
   <script src="html2pdf.bundle.min.js"></script>
 
   <!-- Client Application Script -->
-  <script src="app.js"></script>
+  <script src="app.js?v=3.2"></script>
 </body>
 </html>
