@@ -11,6 +11,7 @@
   // Application State
   const state = {
     exams: [],
+    chapters: [],
     activeExam: null,
     pendingExamConfig: null,
     questions: [],
@@ -54,6 +55,7 @@
     brandHomeBtn: document.getElementById('brand-home-btn'),
     navHomeBtn: document.getElementById('nav-home-btn'),
     navTestsBtn: document.getElementById('nav-tests-btn'),
+    navChaptersBtn: document.getElementById('nav-chapters-btn'),
     navInstructionsBtn: document.getElementById('nav-instructions-btn'),
     navResultsBtn: document.getElementById('nav-results-btn'),
     testHeaderControls: document.getElementById('test-header-controls'),
@@ -70,6 +72,7 @@
     examsGrid: document.getElementById('exams-grid'),
     filterFullBtn: document.getElementById('filter-full-btn'),
     filterSectionBtn: document.getElementById('filter-section-btn'),
+    filterChapterBtn: document.getElementById('filter-chapter-btn'),
 
     // CBT Interface
     examTitle: document.getElementById('cbt-exam-title'),
@@ -256,6 +259,7 @@
   }
 
   function renderMath(targetElement) {
+    if (!targetElement) return;
     if (window.MathJax && window.MathJax.typesetPromise) {
       window.MathJax.typesetPromise([targetElement]).catch((err) => {
         console.warn("MathJax rendering warning:", err);
@@ -274,6 +278,7 @@
     // Update global nav active state
     if (el.navHomeBtn) el.navHomeBtn.classList.remove('active');
     if (el.navTestsBtn) el.navTestsBtn.classList.remove('active');
+    if (el.navChaptersBtn) el.navChaptersBtn.classList.remove('active');
     if (el.navInstructionsBtn) el.navInstructionsBtn.classList.remove('active');
     if (el.navResultsBtn) el.navResultsBtn.classList.remove('active');
 
@@ -307,17 +312,27 @@
 
     if (examConfig) {
       el.modalInstructionsExamName.textContent = examConfig.title;
-      const durationMins = (examConfig.section === 'all') 
-        ? SECTION_DURATIONS["Full"] 
-        : (SECTION_DURATIONS[examConfig.section] || 50);
+      let durationMins = 50;
+      let qCountText = 'Subject Test';
+      
+      if (examConfig.exam_type === 'chapter' || examConfig.chapter) {
+        durationMins = examConfig.duration_minutes || 50;
+        qCountText = `${examConfig.total_questions || 50} Questions (Chapter Mock)`;
+      } else if (examConfig.section === 'all') {
+        durationMins = SECTION_DURATIONS["Full"];
+        qCountText = '200 Questions';
+      } else {
+        durationMins = SECTION_DURATIONS[examConfig.section] || 50;
+        qCountText = 'Subject Test';
+      }
       el.instDurationVal.textContent = `${durationMins} Minutes`;
-      el.instQuestionsVal.textContent = (examConfig.section === 'all') ? '200 Questions' : 'Subject Test';
+      el.instQuestionsVal.textContent = qCountText;
       el.btnModalInstructionsStart.textContent = 'Start Test Now';
       el.btnModalInstructionsStart.classList.remove('hidden');
     } else {
       el.modalInstructionsExamName.textContent = 'General Candidate Guidelines';
-      el.instDurationVal.textContent = '180 Minutes (Full) / 20–50 Mins (Subject)';
-      el.instQuestionsVal.textContent = '200 Questions (Full Paper)';
+      el.instDurationVal.textContent = '180 Minutes (Full) / 20–50 Mins (Subject & Chapter)';
+      el.instQuestionsVal.textContent = '200 Questions (Full Paper) / 50 Qs (Chapter)';
       el.btnModalInstructionsStart.textContent = 'Begin Default Test';
       // Default to first exam if available
       if (state.exams.length) {
@@ -348,8 +363,27 @@
       if (!response.ok) throw new Error('Failed to load exam data');
       const data = await response.json();
       state.exams = data.exams || [];
+      state.chapters = data.chapters || [];
+
+      // Fallback check if chapters wasn't present in exams endpoint
+      if (!state.chapters.length) {
+        try {
+          const chRes = await fetch('/api/chapters');
+          if (chRes.ok) {
+            const chData = await chRes.json();
+            state.chapters = chData.chapters || [];
+          }
+        } catch (_) {}
+      }
+
       renderExamsGrid('full');
-      if (el.headerDbStatus) el.headerDbStatus.textContent = '800 Questions Available';
+      
+      const totalFull = state.exams.reduce((sum, e) => sum + (e.total_questions || 0), 0);
+      const totalChapters = state.chapters.reduce((sum, c) => sum + (c.total_questions || 0), 0);
+      const totalAvailable = totalFull + totalChapters;
+      if (el.headerDbStatus) {
+        el.headerDbStatus.textContent = `${totalAvailable} Questions Available (${totalFull} Full · ${totalChapters} Chapter)`;
+      }
     } catch (err) {
       console.error(err);
       el.examsGrid.innerHTML = `
@@ -362,6 +396,159 @@
   }
 
   function renderExamsGrid(filter = 'full') {
+    if (filter === 'chapter') {
+      if (!state.chapters || !state.chapters.length) {
+        el.examsGrid.innerHTML = `
+          <div class="loading-state">
+            <p style="color: var(--text-primary); font-weight: 600;">No chapter mock papers detected.</p>
+            <p style="font-size: 0.85rem; margin-top: 6px;">Ensure chapter database is present in the chapter folder.</p>
+          </div>
+        `;
+        return;
+      }
+
+      el.examsGrid.innerHTML = '';
+
+      state.chapters.forEach((ch) => {
+        const card = document.createElement('article');
+        card.className = 'chapter-mock-card';
+        card.setAttribute('data-chapter', ch.id);
+
+        const easyCnt = (ch.difficulty && ch.difficulty.easy) || 0;
+        const medCnt = (ch.difficulty && ch.difficulty.medium) || 0;
+        const hardCnt = (ch.difficulty && ch.difficulty.hard) || 0;
+        const total = ch.total_questions || (easyCnt + medCnt + hardCnt) || 50;
+        const easyPct = Math.round((easyCnt / total) * 100);
+        const medPct = Math.round((medCnt / total) * 100);
+        const hardPct = Math.max(0, 100 - easyPct - medPct);
+
+        const topicOptions = (ch.topics || []).map(t => `
+          <option value="${encodeURIComponent(t.name)}">${t.name} (${t.count} Qs)</option>
+        `).join('');
+
+        const topicChips = (ch.topics || []).map(t => `
+          <span class="chapter-topic-chip" title="${t.name}: ${t.count} questions">
+            ${t.name} <small>(${t.count})</small>
+          </span>
+        `).join('');
+
+        card.innerHTML = `
+          <div class="exam-card-header">
+            <div style="display:flex; gap:6px; align-items:center;">
+              <span class="chapter-subject-tag">${ch.subject || 'Mathematics'}</span>
+              <span class="chapter-badge-tag">Chapter Mock #1</span>
+            </div>
+            <span class="exam-total-pill">${total} Questions · ${ch.duration_minutes || 50}m</span>
+          </div>
+
+          <div>
+            <h3 class="exam-card-title">${ch.title}</h3>
+            <p class="chapter-desc-text" style="margin-top: 6px;">
+              Master this high-weightage chapter for IMU CET entrance with a full CBT exam simulation covering order, degree, separable variables, integrating factors, homogeneous equations, and applications.
+            </p>
+          </div>
+
+          <div class="chapter-topics-container">
+            <div class="chapter-topics-header">Core Syllabus Topics (${(ch.topics || []).length}):</div>
+            <div class="chapter-topics-wrap">
+              ${topicChips}
+            </div>
+          </div>
+
+          <div class="chapter-diff-bar-container">
+            <div class="chapter-diff-labels">
+              <span><span class="diff-dot easy"></span>Easy: ${easyCnt}</span>
+              <span><span class="diff-dot medium"></span>Medium: ${medCnt}</span>
+              <span><span class="diff-dot hard"></span>Hard: ${hardCnt}</span>
+            </div>
+            <div class="chapter-diff-track">
+              <div class="chapter-diff-seg easy" style="width: ${easyPct}%;" title="Easy (${easyCnt})"></div>
+              <div class="chapter-diff-seg medium" style="width: ${medPct}%;" title="Medium (${medCnt})"></div>
+              <div class="chapter-diff-seg hard" style="width: ${hardPct}%;" title="Hard (${hardCnt})"></div>
+            </div>
+          </div>
+
+          <div class="chapter-marking-pill">
+            <span>Marking Scheme:</span>
+            <strong>+1.0 Correct</strong> · 
+            <strong>-0.25 Negative</strong> · 
+            <span>0.0 Unattempted</span>
+          </div>
+
+          <div class="exam-card-actions">
+            <button class="btn btn-primary btn-block btn-start-chapter" 
+                    data-chapter="${ch.id}"
+                    data-title="${ch.title} — Chapter Mock Test">
+              Start Full Chapter Mock (${total} Qs · 50m)
+            </button>
+
+            <div class="chapter-topic-row">
+              <select class="cbt-select topic-picker-select" aria-label="Select Specific Topic">
+                <option value="all">Practice All Topics (${total} Qs)</option>
+                ${topicOptions}
+              </select>
+              <button class="btn btn-secondary btn-start-topic" 
+                      data-chapter="${ch.id}"
+                      data-title="${ch.title}">
+                Practice Topic
+              </button>
+            </div>
+          </div>
+        `;
+
+        // Event listener for full chapter mock button
+        const startChBtn = card.querySelector('.btn-start-chapter');
+        if (startChBtn) {
+          startChBtn.addEventListener('click', () => {
+            openInstructionsModal({
+              exam_type: 'chapter',
+              chapter: ch.id,
+              section: ch.subject || 'Mathematics',
+              duration_minutes: ch.duration_minutes || 50,
+              total_questions: total,
+              title: `${ch.title} — Chapter Mock Test`
+            });
+          });
+        }
+
+        // Event listener for topic practice
+        const startTopicBtn = card.querySelector('.btn-start-topic');
+        const topicSelect = card.querySelector('.topic-picker-select');
+        if (startTopicBtn && topicSelect) {
+          startTopicBtn.addEventListener('click', () => {
+            const rawVal = topicSelect.value;
+            if (rawVal === 'all') {
+              openInstructionsModal({
+                exam_type: 'chapter',
+                chapter: ch.id,
+                section: ch.subject || 'Mathematics',
+                duration_minutes: ch.duration_minutes || 50,
+                total_questions: total,
+                title: `${ch.title} — Chapter Mock Test`
+              });
+            } else {
+              const topicName = decodeURIComponent(rawVal);
+              const tObj = (ch.topics || []).find(t => t.name === topicName);
+              const qCnt = tObj ? tObj.count : 10;
+              const durationMins = Math.max(15, Math.round(qCnt * 1.5));
+              openInstructionsModal({
+                exam_type: 'chapter',
+                chapter: ch.id,
+                topic: topicName,
+                section: ch.subject || 'Mathematics',
+                duration_minutes: durationMins,
+                total_questions: qCnt,
+                title: `${ch.title} (${topicName}) — Topic Practice`
+              });
+            }
+          });
+        }
+
+        el.examsGrid.appendChild(card);
+      });
+      return;
+    }
+
     if (!state.exams.length) {
       el.examsGrid.innerHTML = '<div class="loading-state"><p>No usable exams found in database.</p></div>';
       return;
@@ -697,8 +884,9 @@
   // ==========================================================================
   // TEST ENGINE & CBT WORKSPACE
   // ==========================================================================
-  async function startExam({ year, shift, section, title }) {
-    state.activeExam = { year, shift, section, title };
+  async function startExam(examConfig) {
+    const { year, shift, section, title, exam_type, chapter, topic, duration_minutes, total_questions } = examConfig;
+    state.activeExam = { ...examConfig };
     state.responses = {};
     state.questionStatus = {};
     state.currentIndex = 0;
@@ -728,9 +916,17 @@
     showView('test');
 
     try {
-      let url = `/api/questions?year=${year}`;
-      if (shift) url += `&shift=${encodeURIComponent(shift)}`;
-      if (section && section !== 'all') url += `&section=${encodeURIComponent(section)}`;
+      let url = '';
+      if (exam_type === 'chapter' || chapter) {
+        url = `/api/questions?chapter=${encodeURIComponent(chapter)}`;
+        if (topic && topic !== 'all') {
+          url += `&topic=${encodeURIComponent(topic)}`;
+        }
+      } else {
+        url = `/api/questions?year=${year}`;
+        if (shift) url += `&shift=${encodeURIComponent(shift)}`;
+        if (section && section !== 'all') url += `&section=${encodeURIComponent(section)}`;
+      }
 
       const res = await fetch(url);
       if (!res.ok) throw new Error('Failed to retrieve question set');
@@ -751,9 +947,16 @@
       // Setup exam headers & duration
       el.examTitle.textContent = title;
       
-      const durationMins = (section === 'all') 
-        ? SECTION_DURATIONS["Full"] 
-        : (SECTION_DURATIONS[section] || 50);
+      let durationMins = 50;
+      if (duration_minutes) {
+        durationMins = duration_minutes;
+      } else if (exam_type === 'chapter') {
+        durationMins = 50;
+      } else if (section === 'all') {
+        durationMins = SECTION_DURATIONS["Full"];
+      } else {
+        durationMins = SECTION_DURATIONS[section] || 50;
+      }
       
       state.totalTimeSeconds = durationMins * 60;
       state.timeRemainingSeconds = state.totalTimeSeconds;
@@ -1063,6 +1266,10 @@
     saveCurrentResponse();
     updatePalette();
 
+    // Close mobile palette drawer if open
+    if (el.paletteSidebar) el.paletteSidebar.classList.remove('open');
+    if (el.paletteBackdrop) el.paletteBackdrop.classList.add('hidden');
+
     const summary = getSectionSummary();
     el.modalSummaryTbody.innerHTML = '';
 
@@ -1103,9 +1310,6 @@
     const timeSpent = state.totalTimeSeconds - Math.max(0, state.timeRemainingSeconds);
 
     const payload = {
-      year: state.activeExam.year,
-      shift: state.activeExam.shift,
-      section: state.activeExam.section,
       responses: state.responses,
       time_spent_seconds: timeSpent,
       proctoring: {
@@ -1117,6 +1321,16 @@
       }
     };
 
+    if (state.activeExam && (state.activeExam.exam_type === 'chapter' || state.activeExam.chapter)) {
+      payload.exam_type = 'chapter';
+      payload.chapter = state.activeExam.chapter;
+      if (state.activeExam.topic) payload.topic = state.activeExam.topic;
+    } else if (state.activeExam) {
+      payload.year = state.activeExam.year;
+      payload.shift = state.activeExam.shift;
+      payload.section = state.activeExam.section;
+    }
+
     try {
       const res = await fetch('/api/submit', {
         method: 'POST',
@@ -1127,13 +1341,8 @@
       if (!res.ok) throw new Error('Failed to score examination');
       const result = await res.json();
       state.submissionResult = result;
-      renderResults(result);
       showView('results');
-
-      // Automatic PDF Download: Immediately download scorecard & response PDF on user's phone / computer
-      setTimeout(() => {
-        downloadResultsPDF(result);
-      }, 500);
+      renderResults(result);
     } catch (err) {
       console.error(err);
       alert('Error during submission: ' + err.message);
@@ -1317,7 +1526,9 @@
       el.reviewList.appendChild(card);
     });
 
-    renderMath(el.reviewList);
+    setTimeout(() => {
+      renderMath(el.reviewList);
+    }, 20);
   }
 
   // ==========================================================================
@@ -1568,6 +1779,21 @@
       });
     }
 
+    if (el.navChaptersBtn) {
+      el.navChaptersBtn.addEventListener('click', () => {
+        showView('dashboard');
+        if (el.navChaptersBtn) el.navChaptersBtn.classList.add('active');
+        if (el.navHomeBtn) el.navHomeBtn.classList.remove('active');
+        [el.filterFullBtn, el.filterSectionBtn, el.filterChapterBtn].forEach(b => {
+          if (b) b.classList.remove('active');
+        });
+        if (el.filterChapterBtn) el.filterChapterBtn.classList.add('active');
+        renderExamsGrid('chapter');
+        const section = document.querySelector('.dashboard-exams-section');
+        if (section) section.scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+
     if (el.navInstructionsBtn) {
       el.navInstructionsBtn.addEventListener('click', () => {
         openInstructionsModal(null);
@@ -1698,11 +1924,11 @@
       });
     });
 
-    // Dashboard Filters (Full Mocks and Sectional Practice)
-    [el.filterFullBtn, el.filterSectionBtn].forEach(btn => {
+    // Dashboard Filters (Full Mocks, Sectional Practice, and Chapter Mocks)
+    [el.filterFullBtn, el.filterSectionBtn, el.filterChapterBtn].forEach(btn => {
       if (!btn) return;
       btn.addEventListener('click', (e) => {
-        [el.filterFullBtn, el.filterSectionBtn].forEach(b => {
+        [el.filterFullBtn, el.filterSectionBtn, el.filterChapterBtn].forEach(b => {
           if (b) b.classList.remove('active');
         });
         e.currentTarget.classList.add('active');

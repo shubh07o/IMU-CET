@@ -13,7 +13,8 @@
     "explanation": "Colloidal sulphur is widely used as an effective medicine for treating skin ailments.",
     "topic": "Surface Chemistry / Colloids",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.596890"
+    "created_at": "2026-10-13T08:12:24.596890",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_182",
@@ -29,7 +30,8 @@
     "explanation": "Aldehydes react with alcohols in dry HCl gas to produce hemiacetals, which further react with alcohol to yield stable acetals.",
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.615972"
+    "created_at": "2026-10-13T08:12:24.615972",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_183",
@@ -37,15 +39,16 @@
     "section": "Chemistry",
     "question_number": 183,
     "question_text": "Which hydride is electron deficient?:",
-    "option_a": "CH_4",
-    "option_b": "B_2H_6",
+    "option_a": "\\(CH_4\\)",
+    "option_b": "\\(B_2H_6\\)",
     "option_c": "NaH",
-    "option_d": "CaH_2",
+    "option_d": "\\(CaH_2\\)",
     "correct_option": "B",
     "explanation": "Diborane (B2H6) has 12 valence electrons across 8 bonds with 3-center-2-electron banana bonds, making it electron deficient.",
     "topic": "p-Block Elements / Group 13",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.635136"
+    "created_at": "2026-10-13T08:12:24.635136",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_184",
@@ -61,7 +64,8 @@
     "explanation": "Finely divided Platinum (Pt) and Palladium (Pd) are widely used catalysts embedded into electrodes in fuel cells.",
     "topic": "Electrochemistry / Fuel Cells",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.653311"
+    "created_at": "2026-10-13T08:12:24.653311",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_185",
@@ -74,10 +78,11 @@
     "option_c": "5",
     "option_d": "4",
     "correct_option": "C",
-    "explanation": "[Pt(NH3)6]Cl4 ionizes to give 1 complex cation [Pt(NH3)6]^{4+} and 4 chloride anions Cl^-, giving 5 total ions.",
+    "explanation": "[Pt(NH3)6]Cl4 ionizes to \\(give 1 complex cation [Pt(NH3)6]^{4+}\\) and \\(4 chloride anions Cl^-, giving 5 total\\) ions.",
     "topic": "Coordination Compounds",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.671756"
+    "created_at": "2026-10-13T08:12:24.671756",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_186",
@@ -93,23 +98,25 @@
     "explanation": "Pentan-2-one contains a methyl ketone group (-COCH3) and gives a positive yellow precipitate in the iodoform test, while pentan-3-one does not.",
     "topic": "Aldehydes and Ketones",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.690169"
+    "created_at": "2026-10-13T08:12:24.690169",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_187",
     "year": 2024,
     "section": "Chemistry",
     "question_number": 187,
-    "question_text": "Aqueous solution of 18g water and 414g ethyl alcohol. Mole fraction of water is:",
+    "question_text": "Aqueous solution of \\(18g water\\) and \\(414g ethyl alcohol. Mole fraction\\) of water is:",
     "option_a": "0.7",
     "option_b": "0.9",
     "option_c": "0.1",
     "option_d": "0.4",
     "correct_option": "C",
-    "explanation": "Moles of water = 18/18 = 1. Moles of ethanol = 414/46 = 9. Mole fraction of water = 1 / (1 + 9) = 0.1.",
+    "explanation": "Moles of \\(water = 18/18 = 1. Moles\\) of \\(ethanol = 414/46 = 9. Mole fraction\\) of \\(water = 1 / (1 + 9) = 0.1\\).",
     "topic": "Solutions / Concentration Terms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.709896"
+    "created_at": "2026-10-13T08:12:24.709896",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_188",
@@ -125,39 +132,42 @@
     "explanation": "Cis-platin has formula cis-[Pt(NH3)2Cl2], named Diammine dichlorido platinum (II) in IUPAC nomenclature.",
     "topic": "Coordination Compounds / IUPAC",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.728691"
+    "created_at": "2026-10-13T08:12:24.728691",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_189",
     "year": 2024,
     "section": "Chemistry",
     "question_number": 189,
-    "question_text": "C_7H_8O gives tribromo derivative C_7H_5OBr_3 with bromine:",
+    "question_text": "\\(C_7H_8O\\) gives tribromo derivative \\(C_7H_5OBr_3\\) with bromine:",
     "option_a": "m-Cresol",
     "option_b": "p-Cresol",
     "option_c": "Benzyl alcohol",
     "option_d": "o-Cresol",
     "correct_option": "A",
-    "explanation": "In m-cresol (3-methylphenol), positions 2, 4, and 6 are activated and unhindered/open for electrophilic bromination, forming a tribromo derivative.",
+    "explanation": "In m-cresol (3-methylphenol), positions 2, 4, and 6 are activated and \\(unhindered/open\\) for electrophilic bromination, forming a tribromo derivative.",
     "topic": "Alcohols, Phenols and Ethers",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:12:24.744471"
+    "created_at": "2026-10-13T08:12:24.744471",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_190",
     "year": 2024,
     "section": "Chemistry",
     "question_number": 190,
-    "question_text": "Ethanol heated with excess conc. H_2SO_4 at 443K gives:",
+    "question_text": "Ethanol heated with \\(excess conc. H_2SO_4\\) at \\(443K\\) gives:",
     "option_a": "ethane",
     "option_b": "methane",
     "option_c": "ethene",
     "option_d": "ethyne",
     "correct_option": "C",
-    "explanation": "Acid-catalyzed dehydration of ethanol at 443K (170°C) yields ethene via beta-elimination.",
+    "explanation": "Acid-catalyzed dehydration of ethanol at \\(443K (170^\\circ\\text{C})\\) yields ethene via beta-elimination.",
     "topic": "Alcohols, Phenols and Ethers",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.760601"
+    "created_at": "2026-10-13T08:12:24.760601",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_191",
@@ -173,7 +183,8 @@
     "explanation": "The phenyl-oxygen bond has partial double bond character due to resonance and does not cleave; iodide attacks the methyl group, producing phenol and iodomethane (CH3I).",
     "topic": "Alcohols, Phenols and Ethers",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.777042"
+    "created_at": "2026-10-13T08:12:24.777042",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_192",
@@ -181,15 +192,16 @@
     "section": "Chemistry",
     "question_number": 192,
     "question_text": "Reacting substances in Kolbe's reaction:",
-    "option_a": "Sodium phenate and CCl_4",
-    "option_b": "Phenol and CHCl_3",
-    "option_c": "Sodium phenate and CO_2",
-    "option_d": "Phenol and CCl_4",
+    "option_a": "\\(Sodium phenate and CCl_4\\)",
+    "option_b": "\\(Phenol and CHCl_3\\)",
+    "option_c": "\\(Sodium phenate and CO_2\\)",
+    "option_d": "\\(Phenol and CCl_4\\)",
     "correct_option": "C",
     "explanation": "In Kolbe's reaction, sodium phenoxide reacts with CO2 under pressure followed by acidification to produce salicylic acid.",
     "topic": "Alcohols, Phenols and Ethers / Named Reactions",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.793040"
+    "created_at": "2026-10-13T08:12:24.793040",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_193",
@@ -197,15 +209,16 @@
     "section": "Chemistry",
     "question_number": 193,
     "question_text": "Ethanoic acid undergoes HVZ reaction but Methanoic acid does not because of:",
-    "option_a": "absence of \\alpha-H in ethanoic acid",
+    "option_a": "\\(absence of \\alpha-H in ethanoic acid\\)",
     "option_b": "higher acidity",
-    "option_c": "presence of \\alpha-H in methanoic acid",
-    "option_d": "presence of \\alpha-H in ethanoic acid",
+    "option_c": "\\(presence of \\alpha-H in methanoic acid\\)",
+    "option_d": "\\(presence of \\alpha-H in ethanoic acid\\)",
     "correct_option": "D",
     "explanation": "The Hell-Volhard-Zelinsky (HVZ) reaction requires an alpha-hydrogen atom, which is present in ethanoic acid (CH3COOH) but absent in methanoic acid (HCOOH).",
     "topic": "Carboxylic Acids / Named Reactions",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.808444"
+    "created_at": "2026-10-13T08:12:24.808444",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_194",
@@ -213,79 +226,84 @@
     "section": "Chemistry",
     "question_number": 194,
     "question_text": "Vacant space in body centered cubic (BCC) lattice unit cell:",
-    "option_a": "23%",
-    "option_b": "46%",
-    "option_c": "32%",
-    "option_d": "10%",
+    "option_a": "\\(23%\\)",
+    "option_b": "\\(46%\\)",
+    "option_c": "\\(32%\\)",
+    "option_d": "\\(10%\\)",
     "correct_option": "C",
-    "explanation": "Packing efficiency of BCC is 68%, therefore percentage of vacant space = 100% - 68% = 32%.",
+    "explanation": "Packing efficiency of BCC is 68%, therefore percentage of \\(vacant space = 100% - 68% = 32%\\).",
     "topic": "Solid State / Unit Cells",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.824588"
+    "created_at": "2026-10-13T08:12:24.824588",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_195",
     "year": 2024,
     "section": "Chemistry",
     "question_number": 195,
-    "question_text": "Wavelength 2.2 \\times 10^{-11} m, h = 6.6 \\times 10^{-34} Js, momentum of photon is:",
-    "option_a": "1.452 \\times 10^{-44}",
-    "option_b": "6.89 \\times 10^{43}",
-    "option_c": "3 \\times 10^{-23} kg ms^{-1}",
-    "option_d": "3.33 \\times 10^{-22}",
+    "question_text": "Wavelength \\(2.2 \\times 10^{-11} m, h = 6.6 \\times 10^{-34} Js, momentum\\) of photon is:",
+    "option_a": "\\(1.452 \\times 10^{-44}\\)",
+    "option_b": "\\(6.89 \\times 10^{43}\\)",
+    "option_c": "\\(3 \\times 10^{-23} kg ms^{-1}\\)",
+    "option_d": "\\(3.33 \\times 10^{-22}\\)",
     "correct_option": "C",
-    "explanation": "Momentum p = h / \\lambda = 6.6e-34 / 2.2e-11 = 3e-23 kg m/s.",
+    "explanation": "\\(Momentum p = h / \\lambda = 6.6e-34 / 2.2e-11 = 3e-23 kg m/s\\).",
     "topic": "Structure of Atom / Dual Nature",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.840713"
+    "created_at": "2026-10-13T08:12:24.840713",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_196",
     "year": 2024,
     "section": "Chemistry",
     "question_number": 196,
-    "question_text": "Products A and B in R-X + AgCN -> A and R-X + KCN -> B:",
-    "option_a": "A = RNC; B = RCN",
-    "option_b": "A = RNC; B = RNC",
-    "option_c": "A = R-CN; B = RCN",
-    "option_d": "A = RCN; B = RNC",
+    "question_text": "Products A and \\(B\\) in \\(R-X + AgCN -> A\\) and \\(R-X + KCN -> B\\):",
+    "option_a": "\\(A = RNC; B = RCN\\)",
+    "option_b": "\\(A = RNC; B = RNC\\)",
+    "option_c": "\\(A = R-CN; B = RCN\\)",
+    "option_d": "\\(A = RCN; B = RNC\\)",
     "correct_option": "A",
     "explanation": "AgCN is predominantly covalent giving alkyl isocyanide (RNC); KCN is ionic giving alkyl cyanide (RCN).",
     "topic": "Haloalkanes and Haloarenes",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.856480"
+    "created_at": "2026-10-13T08:12:24.856480",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_197",
     "year": 2024,
     "section": "Chemistry",
     "question_number": 197,
-    "question_text": "Work done when 2 moles ideal gas expands reversibly & isothermally 1L to 10L at 300K (R=0.0083 kJ K^{-1}mol^{-1}):",
+    "question_text": "Work done when 2 moles ideal gas \\(expands reversibly & isothermally 1L\\) to \\(10L\\) at \\(300K (R=0.0083 kJ K^{-1}mol^{-1})\\):",
     "option_a": "0.115 kJ",
     "option_b": "58.5 kJ",
     "option_c": "11.5 kJ",
     "option_d": "5.8 kJ",
     "correct_option": "C",
-    "explanation": "W = 2.303 * n * R * T * log10(V2/V1) = 2.303 * 2 * 0.0083 * 300 * 1 = 11.47 kJ \\approx 11.5 kJ.",
+    "explanation": "\\(W = 2.303 * n * R * T * log10(V2/V1) = 2.303 * 2 * 0.0083 * 300 * 1 = 11.47 kJ \\approx 11.5 kJ\\).",
     "topic": "Chemical Thermodynamics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.872756"
+    "created_at": "2026-10-13T08:12:24.872756",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_198",
     "year": 2024,
     "section": "Chemistry",
     "question_number": 198,
-    "question_text": "First order reaction t_{1/2} = 45 min. Time for 99.9% completion:",
+    "question_text": "First order \\(reaction t_{1/2} = 45 min. Time\\) for 99.9% completion:",
     "option_a": "10 Hours",
     "option_b": "20 Hours",
     "option_c": "5 Hours",
     "option_d": "7.5 Hours",
     "correct_option": "D",
-    "explanation": "t(99.9%) = 10 * t(1/2) = 10 * 45 min = 450 min = 7.5 Hours.",
+    "explanation": "\\(t(99.9%) = 10 * t(1/2) = 10 * 45 min = 450 min = 7.5 Hours\\).",
     "topic": "Chemical Kinetics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.889045"
+    "created_at": "2026-10-13T08:12:24.889045",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_199",
@@ -293,15 +311,16 @@
     "section": "Chemistry",
     "question_number": 199,
     "question_text": "For spontaneity of a cell, correct condition is:",
-    "option_a": "\\Delta G = +ve, E = +ve",
-    "option_b": "\\Delta G = -ve",
-    "option_c": "\\Delta G = 0, E = 0",
-    "option_d": "\\Delta G = -ve, E = 0",
+    "option_a": "\\(\\Delta G = +ve, E = +ve\\)",
+    "option_b": "\\(\\Delta G = -ve\\)",
+    "option_c": "\\(\\Delta G = 0, E = 0\\)",
+    "option_d": "\\(\\Delta G = -ve, E = 0\\)",
     "correct_option": "B",
     "explanation": "The criterion for thermodynamic spontaneity of an electrochemical process is Delta G < 0 (negative).",
     "topic": "Electrochemistry / Thermodynamics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.904771"
+    "created_at": "2026-10-13T08:12:24.904771",
+    "shift": null
   },
   {
     "id": "IMU_2024_CHEM_200",
@@ -317,7 +336,8 @@
     "explanation": "Henry's Law states gas solubility increases with pressure; dissolution of gas in liquid is exothermic, so lower temperature favors higher solubility.",
     "topic": "Solutions / Henry's Law",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:12:24.921341"
+    "created_at": "2026-10-13T08:12:24.921341",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_001",
@@ -333,7 +353,8 @@
     "explanation": "'Decorous' means polite, restrained, and in keeping with good taste and propriety.",
     "topic": "Vocabulary / Fill in the Blanks",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:05:06.898215"
+    "created_at": "2026-10-13T08:05:06.898215",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_002",
@@ -349,7 +370,8 @@
     "explanation": "'Inevitable' means certain to happen; unavoidable.",
     "topic": "Vocabulary / Fill in the Blanks",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:06.913659"
+    "created_at": "2026-10-13T08:05:06.913659",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_003",
@@ -365,7 +387,8 @@
     "explanation": "'Difficult' fits naturally and grammatically with the infinitive construction 'it is difficult for him to maintain his self-respect'.",
     "topic": "Sentence Completion",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:06.925045"
+    "created_at": "2026-10-13T08:05:06.925045",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_004",
@@ -381,7 +404,8 @@
     "explanation": "Missing the party caused her 'disappointment' (sadness from unfulfilled expectation).",
     "topic": "Vocabulary / Fill in the Blanks",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:06.937603"
+    "created_at": "2026-10-13T08:05:06.937603",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_005",
@@ -397,7 +421,8 @@
     "explanation": "'Explaining to the principal' is idiomatic; 'telling' would take a direct object without 'to' ('telling the principal').",
     "topic": "Grammar & Usage",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:06.949585"
+    "created_at": "2026-10-13T08:05:06.949585",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_006",
@@ -413,14 +438,15 @@
     "explanation": "'Sonorous' describes a sound that is delightfully deep, full, and resonant.",
     "topic": "Vocabulary / Fill in the Blanks",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:05:06.962634"
+    "created_at": "2026-10-13T08:05:06.962634",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_007",
     "year": 2024,
     "section": "English",
     "question_number": 7,
-    "question_text": "A statement that is absolutely clear:",
+    "question_text": "\\(A\\) statement that is absolutely clear:",
     "option_a": "clean",
     "option_b": "confused",
     "option_c": "ambiguous",
@@ -429,7 +455,8 @@
     "explanation": "'Unequivocal' means leaving no doubt, clear and unambiguous.",
     "topic": "One Word Substitution",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:06.973987"
+    "created_at": "2026-10-13T08:05:06.973987",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_008",
@@ -445,7 +472,8 @@
     "explanation": "A 'teetotaler' is an individual who practices complete personal abstinence from alcoholic beverages.",
     "topic": "One Word Substitution",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:06.985578"
+    "created_at": "2026-10-13T08:05:06.985578",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_009",
@@ -461,7 +489,8 @@
     "explanation": "'Malleable' refers to materials that can be easily hammered or pressed into shapes without cracking.",
     "topic": "One Word Substitution",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:06.997650"
+    "created_at": "2026-10-13T08:05:06.997650",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_010",
@@ -477,7 +506,8 @@
     "explanation": "'Transient' means impermanent, fleeting, or lasting only for a brief duration.",
     "topic": "One Word Substitution",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.007867"
+    "created_at": "2026-10-13T08:05:07.007867",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_011",
@@ -493,7 +523,8 @@
     "explanation": "An 'ascetic' is a person characterized by the practice of severe self-discipline and austerity.",
     "topic": "One Word Substitution",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:05:07.027424"
+    "created_at": "2026-10-13T08:05:07.027424",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_012",
@@ -509,7 +540,8 @@
     "explanation": "A 'tranquillizer' (tranquilizer) is a drug designed to induce calm and soothe agitation.",
     "topic": "One Word Substitution",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.038612"
+    "created_at": "2026-10-13T08:05:07.038612",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_013",
@@ -522,10 +554,11 @@
     "option_c": "terrestrial",
     "option_d": "native",
     "correct_option": "D",
-    "explanation": "'Indigenous' means naturally originating or occurring in a particular country/place; native.",
+    "explanation": "'Indigenous' means naturally originating or occurring in \\(a particular country/place; native\\).",
     "topic": "Synonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.050432"
+    "created_at": "2026-10-13T08:05:07.050432",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_014",
@@ -541,7 +574,8 @@
     "explanation": "'Fastidious' means very particular, exacting, or fussy about details.",
     "topic": "Synonyms",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:05:07.061835"
+    "created_at": "2026-10-13T08:05:07.061835",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_015",
@@ -557,7 +591,8 @@
     "explanation": "'Aboriginal' relates to original or primitive early inhabitants of a region.",
     "topic": "Synonyms",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:05:07.072422"
+    "created_at": "2026-10-13T08:05:07.072422",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_016",
@@ -573,7 +608,8 @@
     "explanation": "'Somnolence' is a state of strong desire for sleep, or drowsiness.",
     "topic": "Synonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.083316"
+    "created_at": "2026-10-13T08:05:07.083316",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_017",
@@ -589,7 +625,8 @@
     "explanation": "'Abstain' means to refrain voluntarily from doing something.",
     "topic": "Synonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.093606"
+    "created_at": "2026-10-13T08:05:07.093606",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_018",
@@ -605,7 +642,8 @@
     "explanation": "'Sumptuous' means splendid, grand, and lavish.",
     "topic": "Synonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.104351"
+    "created_at": "2026-10-13T08:05:07.104351",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_019",
@@ -621,7 +659,8 @@
     "explanation": "'Prevalent' means widespread, common, or frequently occurring.",
     "topic": "Synonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.115261"
+    "created_at": "2026-10-13T08:05:07.115261",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_020",
@@ -637,7 +676,8 @@
     "explanation": "'Valor' denotes great courage and bravery; its direct antonym is 'Cowardice'.",
     "topic": "Antonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.125353"
+    "created_at": "2026-10-13T08:05:07.125353",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_021",
@@ -653,7 +693,8 @@
     "explanation": "'Lavish' means profuse and extravagant; 'Frugal' means thrifty and economical.",
     "topic": "Antonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.136504"
+    "created_at": "2026-10-13T08:05:07.136504",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_022",
@@ -669,7 +710,8 @@
     "explanation": "'Indigenous' means domestic or native; 'Foreign' means originating from outside.",
     "topic": "Antonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.146515"
+    "created_at": "2026-10-13T08:05:07.146515",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_023",
@@ -685,7 +727,8 @@
     "explanation": "'Holy' means sacred or divine; 'Profane' means unhallowed, irreverent, or secular.",
     "topic": "Antonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.156830"
+    "created_at": "2026-10-13T08:05:07.156830",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_024",
@@ -701,7 +744,8 @@
     "explanation": "'Abdicate' means to renounce or give up a position voluntarily; 'Usurp' means to seize or take over power unlawfully.",
     "topic": "Antonyms",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:05:07.167061"
+    "created_at": "2026-10-13T08:05:07.167061",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_025",
@@ -717,7 +761,8 @@
     "explanation": "'Stationary' means remaining in one place without moving; antonym is 'Moving'.",
     "topic": "Antonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.177248"
+    "created_at": "2026-10-13T08:05:07.177248",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_026",
@@ -733,14 +778,15 @@
     "explanation": "'Superficial' means existing only at surface level; 'Profound' means having great depth or insight.",
     "topic": "Antonyms",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.187217"
+    "created_at": "2026-10-13T08:05:07.187217",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_027",
     "year": 2024,
     "section": "English",
     "question_number": 27,
-    "question_text": "Passive/Active Voice: \"Admittance was refused to him by the airport security.\"",
+    "question_text": "\\(Passive/Active Voice: \"Admittance\\) was refused to him by the airport security.\"",
     "option_a": "The airport security is refusing him admittance.",
     "option_b": "The airport security has refused him admittance.",
     "option_c": "The airport security had refused him admittance.",
@@ -749,30 +795,32 @@
     "explanation": "Past simple passive 'was refused' corresponds to past simple active 'refused'.",
     "topic": "Active and Passive Voice",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.197426"
+    "created_at": "2026-10-13T08:05:07.197426",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_028",
     "year": 2024,
     "section": "English",
     "question_number": 28,
-    "question_text": "Passive/Active Voice: \"The manager explained the latest assignment to Lana.\"",
+    "question_text": "\\(Passive/Active Voice\\): \"The manager explained the latest assignment to Lana.\"",
     "option_a": "The latest assignment was explained to Lana by the manager.",
     "option_b": "The latest assignment had explained to Lana by the manager.",
     "option_c": "Lana was explained the latest assignment.",
     "option_d": "Lana is explained the latest assignment.",
     "correct_option": "A",
-    "explanation": "Subject 'The manager' (Agent) + verb 'explained' + object 'the latest assignment' -> 'The latest assignment was explained to Lana by the manager.'",
+    "explanation": "Subject 'The manager' (Agent) + verb 'explained' + object 'the \\(latest assignment' ->\\) 'The latest assignment was explained to Lana by the manager.'",
     "topic": "Active and Passive Voice",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.207411"
+    "created_at": "2026-10-13T08:05:07.207411",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_029",
     "year": 2024,
     "section": "English",
     "question_number": 29,
-    "question_text": "Passive/Active Voice: \"Robin rolled a marble through a small plastic pipe.\"",
+    "question_text": "\\(Passive/Active Voice: \"Robin rolled a marble\\) through a small plastic pipe.\"",
     "option_a": "A small plastic pipe was rolled by Robin.",
     "option_b": "A small plastic pipe was rolled through a marble by Robin.",
     "option_c": "The marble was rolled through a small plastic pipe by Robin.",
@@ -781,14 +829,15 @@
     "explanation": "The object 'a marble' becomes the subject: 'The marble was rolled through a small plastic pipe by Robin.'",
     "topic": "Active and Passive Voice",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.218218"
+    "created_at": "2026-10-13T08:05:07.218218",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_030",
     "year": 2024,
     "section": "English",
     "question_number": 30,
-    "question_text": "Passive/Active Voice: \"Shalu has ordered new copies of the album.\"",
+    "question_text": "\\(Passive/Active Voice: \"Shalu\\) has ordered new copies of the album.\"",
     "option_a": "New copies of the album have being ordered by Shalu.",
     "option_b": "New copies of the album has been ordered by Shalu.",
     "option_c": "New copies of the album has been order by Shalu.",
@@ -797,14 +846,15 @@
     "explanation": "Present perfect active 'has ordered' becomes 'have been ordered' matching plural subject 'new copies'.",
     "topic": "Active and Passive Voice",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.228353"
+    "created_at": "2026-10-13T08:05:07.228353",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_031",
     "year": 2024,
     "section": "English",
     "question_number": 31,
-    "question_text": "Passive/Active Voice: \"Was the message given by him?\"",
+    "question_text": "\\(Passive/Active Voice\\): \"Was the message given by him?\"",
     "option_a": "Was he given the message?",
     "option_b": "Does he give the message?",
     "option_c": "Did he gave the message?",
@@ -813,7 +863,8 @@
     "explanation": "Past simple interrogative passive 'Was ... given' converts to past simple interrogative active 'Did he give ...?'.",
     "topic": "Active and Passive Voice",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.238672"
+    "created_at": "2026-10-13T08:05:07.238672",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_032",
@@ -829,7 +880,8 @@
     "explanation": "'Had been working' indicates past continuous action that preceded the completion of the assignment.",
     "topic": "Tenses",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:05:07.250137"
+    "created_at": "2026-10-13T08:05:07.250137",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_033",
@@ -845,7 +897,8 @@
     "explanation": "Past passive: 'was congratulated' matches the past clause 'after he won'.",
     "topic": "Tenses & Voice",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.261101"
+    "created_at": "2026-10-13T08:05:07.261101",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_034",
@@ -861,7 +914,8 @@
     "explanation": "'By the time + simple past' expresses a benchmark in the past, requiring past perfect 'had become'.",
     "topic": "Tenses",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.271477"
+    "created_at": "2026-10-13T08:05:07.271477",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_035",
@@ -877,7 +931,8 @@
     "explanation": "'The quality' is singular uncountable, so singular auxiliary 'has been degrading' is grammatically correct.",
     "topic": "Subject-Verb Agreement / Tenses",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.282315"
+    "created_at": "2026-10-13T08:05:07.282315",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_036",
@@ -893,7 +948,8 @@
     "explanation": "Third conditional structure: 'Had + past participle..., would have + past participle'.",
     "topic": "Conditionals",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.293399"
+    "created_at": "2026-10-13T08:05:07.293399",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_037",
@@ -909,7 +965,8 @@
     "explanation": "'Need to' expresses necessity due to the urgency indicated in the first sentence.",
     "topic": "Modals",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.303803"
+    "created_at": "2026-10-13T08:05:07.303803",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_038",
@@ -925,7 +982,8 @@
     "explanation": "The verb 'congratulate' takes preposition 'on' (congratulate someone on something).",
     "topic": "Prepositions",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.314741"
+    "created_at": "2026-10-13T08:05:07.314741",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_039",
@@ -941,14 +999,15 @@
     "explanation": "'Concluded by + gerund' (by stressing) describes the action used to bring the speech to a conclusion.",
     "topic": "Prepositions",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.325276"
+    "created_at": "2026-10-13T08:05:07.325276",
+    "shift": null
   },
   {
     "id": "IMU_2024_ENG_040",
     "year": 2024,
     "section": "English",
     "question_number": 40,
-    "question_text": "Unfortunately, we had to cancel it owing_____ the bad weather.",
+    "question_text": "Unfortunately, we had to \\(cancel it owing_____\\) the bad weather.",
     "option_a": "in",
     "option_b": "to",
     "option_c": "of",
@@ -957,7 +1016,8 @@
     "explanation": "The phrase is 'owing to', meaning because of.",
     "topic": "Prepositions",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:05:07.335986"
+    "created_at": "2026-10-13T08:05:07.335986",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_041",
@@ -973,7 +1033,8 @@
     "explanation": "Abandon, Desert, and Leave mean to leave behind or forsake. Pardon means to forgive.",
     "topic": "Odd One Out / Vocabulary",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.617955"
+    "created_at": "2026-10-13T08:01:39.617955",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_042",
@@ -989,7 +1050,8 @@
     "explanation": "Imitate, Mimic, and Copy mean to duplicate or reproduce. Glorify means to praise.",
     "topic": "Odd One Out / Vocabulary",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.627995"
+    "created_at": "2026-10-13T08:01:39.627995",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_043",
@@ -1002,10 +1064,11 @@
     "option_c": "Instruct",
     "option_d": "Teach",
     "correct_option": "C",
-    "explanation": "Educate, Teach, and Explain focus on conveying understanding and knowledge, whereas Instruct is giving directives/orders.",
+    "explanation": "Educate, Teach, and Explain focus on conveying understanding and knowledge, whereas Instruct is \\(giving directives/orders\\).",
     "topic": "Odd One Out / Vocabulary",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.635115"
+    "created_at": "2026-10-13T08:01:39.635115",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_044",
@@ -1018,10 +1081,11 @@
     "option_c": "312",
     "option_d": "625",
     "correct_option": "C",
-    "explanation": "144 = 12², 289 = 17², and 625 = 25² are perfect squares. 312 is not a perfect square.",
+    "explanation": "\\(144 = 12^2, 289 = 17^2\\), and \\(625 = 25^2\\) are perfect squares. 312 is not a perfect square.",
     "topic": "Number Classification",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.643185"
+    "created_at": "2026-10-13T08:01:39.643185",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_045",
@@ -1034,10 +1098,11 @@
     "option_c": "281",
     "option_d": "231",
     "correct_option": "C",
-    "explanation": "105 (21×5), 168 (21×8), 231 (21×11) are all divisible by 21 (and 7). 281 is prime and not divisible by 21.",
+    "explanation": "\\(105 (21 \\times 5), 168 (21 \\times 8), 231 (21 \\times 11)\\) are all divisible by 21 (and 7). 281 is prime and not divisible by 21.",
     "topic": "Number Classification",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.651866"
+    "created_at": "2026-10-13T08:01:39.651866",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_046",
@@ -1053,7 +1118,8 @@
     "explanation": "Reading yields knowledge; working yields experience.",
     "topic": "Analogy",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.659671"
+    "created_at": "2026-10-13T08:01:39.659671",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_047",
@@ -1069,7 +1135,8 @@
     "explanation": "A crime results in punishment; a mistake results in a reprimand (official rebuke).",
     "topic": "Analogy",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.667960"
+    "created_at": "2026-10-13T08:01:39.667960",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_048",
@@ -1082,10 +1149,11 @@
     "option_c": "Direction",
     "option_d": "Ship",
     "correct_option": "B",
-    "explanation": "A pendulum is the driving/governing element of a pendulum clock; a magnet (magnetic element) drives the compass.",
+    "explanation": "A pendulum is the \\(driving/governing element\\) of a pendulum clock; a magnet (magnetic element) drives the compass.",
     "topic": "Analogy",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.676857"
+    "created_at": "2026-10-13T08:01:39.676857",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_049",
@@ -1101,7 +1169,8 @@
     "explanation": "Honey has the characteristic taste of sweetness; lemon has the characteristic taste of sourness.",
     "topic": "Analogy",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.684971"
+    "created_at": "2026-10-13T08:01:39.684971",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_050",
@@ -1117,7 +1186,8 @@
     "explanation": "Kelvin and Celsius are two different units for temperature; Kilometer and Mile are two different units for distance.",
     "topic": "Analogy / Units",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.692458"
+    "created_at": "2026-10-13T08:01:39.692458",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_051",
@@ -1133,7 +1203,8 @@
     "explanation": "A Manager is in charge of an office; a Curator is in charge of a museum.",
     "topic": "Analogy",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.701296"
+    "created_at": "2026-10-13T08:01:39.701296",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_052",
@@ -1146,10 +1217,11 @@
     "option_c": "142",
     "option_d": "130",
     "correct_option": "A",
-    "explanation": "Differences: 15 - 2 = +13; 41 - 15 = +26; 80 - 41 = +39; Next difference = +52. 80 + 52 = 132.",
+    "explanation": "\\(Differences: 15 - 2 = +13; 41 - 15 = +26; 80 - 41 = +39; Next difference = +52. 80 + 52 = 132\\).",
     "topic": "Number Series",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.708828"
+    "created_at": "2026-10-13T08:01:39.708828",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_053",
@@ -1162,42 +1234,45 @@
     "option_c": "4200",
     "option_d": "1680",
     "correct_option": "B",
-    "explanation": "Each number is multiplied by 4: 1280 × 4 = 5120.",
+    "explanation": "Each number is multiplied by \\(4: 1280 \\times 4 = 5120\\).",
     "topic": "Number Series",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.716661"
+    "created_at": "2026-10-13T08:01:39.716661",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_054",
     "year": 2024,
     "section": "General Aptitude, Reasoning & GK",
     "question_number": 54,
-    "question_text": "If 5 x 8 x 4 = 473 and 9 x 2 x 7 = 816, then 6 x 1 x 3 = ________:",
+    "question_text": "If \\(5 x 8 x 4 = 473\\) and \\(9 x 2 x 7 = 816\\), then \\(6 x 1 x 3 =\\) ________:",
     "option_a": "845",
     "option_b": "510",
     "option_c": "596",
     "option_d": "502",
     "correct_option": "D",
-    "explanation": "Pattern: Subtract 1 from each digit: 5-1=4, 8-1=7, 4-1=3 -> 473. 9-1=8, 2-1=1, 7-1=6 -> 816. For 6 x 1 x 3: 6-1=5, 1-1=0, 3-1=2 -> 502.",
+    "explanation": "Pattern: Subtract 1 from each \\(digit: 5-1=4, 8-1=7, 4-1=3 -> 473. 9-1=8, 2-1=1, 7-1=6 -> 816\\). For \\(6 x 1 x 3: 6-1=5, 1-1=0, 3-1=2 -> 502\\).",
     "topic": "Mathematical Reasoning",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.724235"
+    "created_at": "2026-10-13T08:01:39.724235",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_055",
     "year": 2024,
     "section": "General Aptitude, Reasoning & GK",
     "question_number": 55,
-    "question_text": "If 19 x 11 = 180, 15 x 12 = 130 then 25 x 13 =:",
+    "question_text": "If \\(19 x 11 = 180, 15 x 12 = 130\\) then \\(25 x 13 =\\):",
     "option_a": "230",
     "option_b": "210",
     "option_c": "220",
     "option_d": "200",
     "correct_option": "C",
-    "explanation": "Pattern: (First number - offset) * 10: (19-1)*10=180, (15-2)*10=130, so (25-3)*10=220.",
+    "explanation": "Pattern: (First number \\(- offset) * 10: (19-1)*10=180, (15-2)*10=130, so (25-3)*10=220\\).",
     "topic": "Mathematical Reasoning",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.732427"
+    "created_at": "2026-10-13T08:01:39.732427",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_056",
@@ -1210,10 +1285,11 @@
     "option_c": "54",
     "option_d": "62",
     "correct_option": "A",
-    "explanation": "Differences are squares: +1² (+1), +2² (+4), +3² (+9), +4² (+16), +5² (+25). 31 + 25 = 56.",
+    "explanation": "Differences are \\(squares: +1^2 (+1), +2^2 (+4), +3^2 (+9), +4^2 (+16), +5^2 (+25). 31 + 25 = 56\\).",
     "topic": "Number Series",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.740786"
+    "created_at": "2026-10-13T08:01:39.740786",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_057",
@@ -1226,10 +1302,11 @@
     "option_c": "9",
     "option_d": "13",
     "correct_option": "C",
-    "explanation": "Each term is divided by 5: 45 / 5 = 9.",
+    "explanation": "Each term is divided by \\(5: 45 / 5 = 9\\).",
     "topic": "Number Series",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.749306"
+    "created_at": "2026-10-13T08:01:39.749306",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_058",
@@ -1242,10 +1319,11 @@
     "option_c": "2",
     "option_d": "1",
     "correct_option": "B",
-    "explanation": "Each term is divided by 2: 6 / 2 = 3.",
+    "explanation": "Each term is divided by \\(2: 6 / 2 = 3\\).",
     "topic": "Number Series",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.756877"
+    "created_at": "2026-10-13T08:01:39.756877",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_059",
@@ -1258,10 +1336,11 @@
     "option_c": "NJHBG",
     "option_d": "JNBCD",
     "correct_option": "B",
-    "explanation": "Each letter is shifted backward by 1: K-1=J, O-1=N, C-1=B, H-1=G, I-1=H -> JNBGH.",
+    "explanation": "Each letter is shifted backward by \\(1: K-1=J, O-1=N, C-1=B, H-1=G, I-1=H -> JNBGH\\).",
     "topic": "Coding - Decoding",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.765904"
+    "created_at": "2026-10-13T08:01:39.765904",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_060",
@@ -1274,10 +1353,11 @@
     "option_c": "FTKVGE",
     "option_d": "FKTGEV",
     "correct_option": "D",
-    "explanation": "Each letter is shifted forward by 2: D+2=F, I+2=K, R+2=T, E+2=G, C+2=E, T+2=V -> FKTGEV.",
+    "explanation": "Each letter is shifted forward by \\(2: D+2=F, I+2=K, R+2=T, E+2=G, C+2=E, T+2=V -> FKTGEV\\).",
     "topic": "Coding - Decoding",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.773235"
+    "created_at": "2026-10-13T08:01:39.773235",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_061",
@@ -1293,7 +1373,8 @@
     "explanation": "Carbon dioxide is the major greenhouse gas driving anthropogenic global warming.",
     "topic": "Environmental Science / GK",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.780704"
+    "created_at": "2026-10-13T08:01:39.780704",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_062",
@@ -1306,10 +1387,11 @@
     "option_c": "No change",
     "option_d": "None of the above",
     "correct_option": "B",
-    "explanation": "Moon's gravity is about 1/6th of Earth's gravity, so weight (mg) decreases while mass remains unchanged.",
+    "explanation": "Moon's gravity is about \\(1/6th\\) of Earth's gravity, so weight (mg) decreases while mass remains unchanged.",
     "topic": "Physics / Mechanics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.787822"
+    "created_at": "2026-10-13T08:01:39.787822",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_063",
@@ -1325,7 +1407,8 @@
     "explanation": "Gaganyaan is ISRO's mission to send Indian astronauts to low Earth orbit.",
     "topic": "Space Science / GK",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.795930"
+    "created_at": "2026-10-13T08:01:39.795930",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_064",
@@ -1341,7 +1424,8 @@
     "explanation": "The Houthi rebels in Yemen carried out drone and missile attacks on commercial shipping in the Red Sea.",
     "topic": "Current Affairs / Maritime Affairs",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.803681"
+    "created_at": "2026-10-13T08:01:39.803681",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_065",
@@ -1357,7 +1441,8 @@
     "explanation": "National Maritime Day is observed on 5th April every year in India to commemorate the 1919 voyage of SS Loyalty from Mumbai to London.",
     "topic": "Maritime GK",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.821384"
+    "created_at": "2026-10-13T08:01:39.821384",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_066",
@@ -1373,7 +1458,8 @@
     "explanation": "The total coastline of India including mainland and islands (Andaman & Nicobar, Lakshadweep) is approximately 7516.6 km.",
     "topic": "Indian Geography / Maritime GK",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.829549"
+    "created_at": "2026-10-13T08:01:39.829549",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_067",
@@ -1389,7 +1475,8 @@
     "explanation": "Shri Jagdeep Dhankhar is the 14th Vice President of India.",
     "topic": "Indian Polity / GK",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.837460"
+    "created_at": "2026-10-13T08:01:39.837460",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_068",
@@ -1405,7 +1492,8 @@
     "explanation": "The Sagarmala Programme is the flagship initiative of the Ministry of Ports, Shipping and Waterways for port-led development.",
     "topic": "Government Schemes / Maritime GK",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.844741"
+    "created_at": "2026-10-13T08:01:39.844741",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_069",
@@ -1421,7 +1509,8 @@
     "explanation": "BIMSTEC members are Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, and Thailand. Indonesia is not a member.",
     "topic": "International Organizations / GK",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.851991"
+    "created_at": "2026-10-13T08:01:39.851991",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_070",
@@ -1437,7 +1526,8 @@
     "explanation": "IPL 2024 featured 10 competing franchises.",
     "topic": "Sports / GK",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.859665"
+    "created_at": "2026-10-13T08:01:39.859665",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_071",
@@ -1453,7 +1543,8 @@
     "explanation": "Mariana Trench in the Western Pacific Ocean contains the Challenger Deep, the deepest known point on Earth (~11,000 m).",
     "topic": "Geography / Oceanography",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.867205"
+    "created_at": "2026-10-13T08:01:39.867205",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_072",
@@ -1469,7 +1560,8 @@
     "explanation": "Nuclear energy depends on finite radioactive mineral resources (like uranium) and is classified as non-renewable.",
     "topic": "General Science / Energy",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.874971"
+    "created_at": "2026-10-13T08:01:39.874971",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_073",
@@ -1485,7 +1577,8 @@
     "explanation": "MAKV 2047 stands for Maritime Amrit Kaal Vision 2047 launched for blue economy and maritime development.",
     "topic": "Maritime GK",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.885326"
+    "created_at": "2026-10-13T08:01:39.885326",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_074",
@@ -1498,10 +1591,11 @@
     "option_c": "Knots",
     "option_d": "Mach",
     "correct_option": "C",
-    "explanation": "Ship and aircraft speeds are measured in Knots (1 knot = 1 nautical mile per hour = 1.852 km/h).",
+    "explanation": "Ship and aircraft speeds are measured in \\(Knots (1 knot = 1 nautical mile per hour = 1.852 km/h)\\).",
     "topic": "Maritime Knowledge / Physics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.893009"
+    "created_at": "2026-10-13T08:01:39.893009",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_075",
@@ -1517,7 +1611,8 @@
     "explanation": "Panama Canal connects the Atlantic Ocean and the Pacific Ocean across the Isthmus of Panama.",
     "topic": "Geography / Maritime Geography",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.900552"
+    "created_at": "2026-10-13T08:01:39.900552",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_076",
@@ -1533,7 +1628,8 @@
     "explanation": "Anemometer measures wind speed, whereas a wind vane shows wind direction.",
     "topic": "Meteorology / General Science",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.907907"
+    "created_at": "2026-10-13T08:01:39.907907",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_077",
@@ -1549,7 +1645,8 @@
     "explanation": "A solar eclipse occurs when the Moon passes between Earth and Sun, casting its shadow on Earth.",
     "topic": "Astronomy / General Science",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.917150"
+    "created_at": "2026-10-13T08:01:39.917150",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_078",
@@ -1565,7 +1662,8 @@
     "explanation": "\"The Story of My Experiments with Truth\" is the autobiography of Mahatma Gandhi.",
     "topic": "Books & Authors / GK",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.925522"
+    "created_at": "2026-10-13T08:01:39.925522",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_079",
@@ -1581,7 +1679,8 @@
     "explanation": "A psychrometer with dry and wet bulb thermometers is used to determine atmospheric relative humidity.",
     "topic": "Physics / Meteorology",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:01:39.934778"
+    "created_at": "2026-10-13T08:01:39.934778",
+    "shift": null
   },
   {
     "id": "IMU_2024_GA_080",
@@ -1597,247 +1696,263 @@
     "explanation": "Sea water is denser (higher specific gravity) than fresh water, so buoyant force increases and the vessel floats higher (draft reduces).",
     "topic": "Maritime Physics / Buoyancy",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:01:39.942539"
+    "created_at": "2026-10-13T08:01:39.942539",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_081",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 81,
-    "question_text": "The domain of the function f(x) = \\sqrt{\\log_{10}\\left(\\frac{5x-x^2}{4}\\right)} is:",
-    "option_a": "[-2,0) \\cup (0,1)",
-    "option_b": "[-2,1)",
-    "option_c": "[-2,0)",
-    "option_d": "[1, 4]",
+    "question_text": "The domain of the function \\(f(x) = \\sqrt{\\log_{10}\\left(\\frac{5x-x^2}{4}\\right)}\\) is:",
+    "option_a": "\\([-2,0) \\cup (0,1)\\)",
+    "option_b": "\\([-2,1)\\)",
+    "option_c": "\\([-2,0)\\)",
+    "option_d": "\\([1, 4]\\)",
     "correct_option": "D",
-    "explanation": "For f(x) to be real, (5x-x^2)/4 >= 1 => x^2 - 5x + 4 <= 0 => (x-1)(x-4) <= 0 => x in [1, 4].",
+    "explanation": "For \\(f(x)\\) to be real, \\((5x-x^2)/4 >= 1 => x^2 - 5x + 4 <= 0 => (x-1)(x-4) <= 0 => x\\) in [1, 4].",
     "topic": "Functions / Domain and Range",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.492331"
+    "created_at": "2026-10-13T08:07:56.492331",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_082",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 82,
-    "question_text": "If the straight line 2x - 3y + 17 = 0 is perpendicular to the line passing through (7,17) and (15,\\lambda), then \\lambda equals:",
+    "question_text": "If the straight line \\(2x - 3y + 17 = 0\\) is perpendicular to the line passing through \\((7,17)\\) and \\((15,\\lambda)\\), then \\(\\lambda\\) equals:",
     "option_a": "-5",
     "option_b": "5",
     "option_c": "29",
     "option_d": "-29",
     "correct_option": "B",
-    "explanation": "Slope m1 = 2/3. For perpendicular line, m2 = -3/2. Slope between points = (\\lambda - 17)/8 = -3/2 => \\lambda - 17 = -12 => \\lambda = 5.",
+    "explanation": "Slope \\(m1 = 2/3\\). For perpendicular line, \\(m2 = -3/2\\). Slope between points \\(= (\\lambda - 17)/8 = -3/2 => \\lambda - 17 = -12 => \\lambda = 5\\).",
     "topic": "Straight Lines",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.507055"
+    "created_at": "2026-10-13T08:07:56.507055",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_083",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 83,
-    "question_text": "If A is a skew symmetric matrix, then A^{2024} is:",
+    "question_text": "If \\(A\\) is a skew symmetric matrix, then \\(A^{2024}\\) is:",
     "option_a": "Row matrix",
     "option_b": "Column matrix",
     "option_c": "Symmetric matrix",
     "option_d": "Skew symmetric matrix",
     "correct_option": "C",
-    "explanation": "(A^{2024})^T = (A^T)^{2024} = (-A)^{2024} = (-1)^{2024} A^{2024} = A^{2024}. Since 2024 is even, it is a symmetric matrix.",
+    "explanation": "\\((A^{2024})^T = (A^T)^{2024} = (-A)^{2024} = (-1)^{2024} A^{2024} = A^{2024}\\). Since 2024 is even, it is a symmetric matrix.",
     "topic": "Matrices and Determinants",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.518887"
+    "created_at": "2026-10-13T08:07:56.518887",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_084",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 84,
-    "question_text": "If the vertices of a triangle are (-2,6), (3,-6) and (1,5), then the area of the triangle is:",
+    "question_text": "If the vertices of a triangle are \\((-2,6), (3,-6)\\) and \\((1,5)\\), then the area of the triangle is:",
     "option_a": "40 sq. units",
     "option_b": "15.5 sq. units",
     "option_c": "30 sq. units",
     "option_d": "35 sq. units",
     "correct_option": "B",
-    "explanation": "Area = (1/2)|-2(-6-5) + 3(5-6) + 1(6-(-6))| = (1/2)|22 - 3 + 12| = 31/2 = 15.5 sq. units.",
+    "explanation": "Area \\(= (1/2)|-2(-6-5) + 3(5-6) + 1(6-(-6))| = (1/2)|22 - 3 + 12| = 31/2 = 15.5 sq. units\\).",
     "topic": "Coordinate Geometry",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.531055"
+    "created_at": "2026-10-13T08:07:56.531055",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_085",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 85,
-    "question_text": "If A_n = [[1-n, n], [n, 1-n]], then |A_1| + |A_2| + ... + |A_{2024}| =:",
+    "question_text": "If \\(A_n = \\begin{bmatrix} 1-n &  n \\\\ n &  1-n \\end{bmatrix}\\), then \\(|A_1| + |A_2| + ... + |A_{2024}| =\\):",
     "option_a": "-2024",
-    "option_b": "-(2024)^2",
-    "option_c": "(2024)^2",
+    "option_b": "\\(-(2024)^2\\)",
+    "option_c": "\\((2024)^2\\)",
     "option_d": "4048",
     "correct_option": "B",
-    "explanation": "|A_n| = (1-n)^2 - n^2 = 1 - 2n. Sum = sum_{n=1}^{2024} (1 - 2n) = 2024 - 2*(2024*2025/2) = 2024(1-2025) = -(2024)^2.",
+    "explanation": "\\(|A_n| = (1-n)^2 - n^2 = 1 - 2n\\). Sum \\(= sum_{n=1}^{2024} (1 - 2n) = 2024 - 2*(2024*2025/2) = 2024(1-2025) = -(2024)^2\\).",
     "topic": "Matrices and Determinants / Sequences",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.543273"
+    "created_at": "2026-10-13T08:07:56.543273",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_086",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 86,
-    "question_text": "The angle between the pair of lines x/1 = y/2 = z/3 and x/2 = y/1 = z/-1 is:",
-    "option_a": "\\cos^{-1}(19/210)",
-    "option_b": "\\cos^{-1}(8\\sqrt{3}/15)",
-    "option_c": "\\cos^{-1}(31\\sqrt{42}/210)",
-    "option_d": "\\cos^{-1}(5\\sqrt{3}/16)",
+    "question_text": "The angle between the pair of lines \\(x/1 = y/2 = z/3\\) and \\(x/2 = y/1 = z/-1\\) is:",
+    "option_a": "\\(\\cos^{-1}(19/210)\\)",
+    "option_b": "\\(\\cos^{-1}(8\\sqrt{3}/15)\\)",
+    "option_c": "\\(\\cos^{-1}(31\\sqrt{42}/210)\\)",
+    "option_d": "\\(\\cos^{-1}(5\\sqrt{3}/16)\\)",
     "correct_option": "A",
-    "explanation": "Angle between two 3D lines determined by direction ratios dot product formula cos theta = (a1*a2 + b1*b2 + c1*c2) / (sqrt(sum a^2)*sqrt(sum b^2)).",
+    "explanation": "Angle between \\(two 3D\\) lines determined by \\(direction ratios dot product formula cos theta = (a1*a2 + b1*b2 + c1*c2) / (sqrt(sum a^2)*sqrt(sum b^2))\\).",
     "topic": "3D Geometry",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.555489"
+    "created_at": "2026-10-13T08:07:56.555489",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_087",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 87,
-    "question_text": "The sum of the degree and order of the differential equation (1+y_1^2)^{2/5} = y_2 is:",
+    "question_text": "The sum of the degree and order of the differential equation \\((1+y_1^2)^{2/5} = y_2\\) is:",
     "option_a": "4",
     "option_b": "6",
     "option_c": "5",
     "option_d": "7",
     "correct_option": "D",
-    "explanation": "Clearing the fractional power gives (1+y_1^2)^2 = y_2^5. Highest order derivative is y_2 (order = 2), and its power is 5 (degree = 5). Sum = 2 + 5 = 7.",
+    "explanation": "Clearing the fractional power gives \\((1+y_1^2)^2 = y_2^5. Highest\\) order derivative is \\(y_2\\) (order \\(= 2)\\), and its power is 5 (degree \\(= 5)\\). Sum \\(= 2 + 5 = 7\\).",
     "topic": "Differential Equations",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.567754"
+    "created_at": "2026-10-13T08:07:56.567754",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_088",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 88,
-    "question_text": "If \\int \\frac{dx}{(x+2)(x^2+1)} = a \\log|1+x^2| + b \\tan^{-1}x + \\frac{1}{5}\\log|x+2| + C, then:",
-    "option_a": "a = -1/10, b = 2/5",
-    "option_b": "a = 1/10, b = 2/5",
-    "option_c": "a = -1/10, b = -2/5",
-    "option_d": "a = 1/10, b = -2/5",
+    "question_text": "If \\(\\int \\frac{dx}{(x+2)(x^2+1)} = a \\log|1+x^2| + b \\tan^{-1}x + \\frac{1}{5}\\log|x+2| + C\\), then:",
+    "option_a": "\\(a = -1/10, b = 2/5\\)",
+    "option_b": "\\(a = 1/10, b = 2/5\\)",
+    "option_c": "\\(a = -1/10, b = -2/5\\)",
+    "option_d": "\\(a = 1/10, b = -2/5\\)",
     "correct_option": "A",
-    "explanation": "By partial fractions, 1/((x+2)(x^2+1)) = (1/5)/(x+2) + (-x/5 + 2/5)/(x^2+1). Integrating gives a = -1/10 and b = 2/5.",
+    "explanation": "By \\(partial fractions, 1/((x+2)(x^2+1)) = (1/5)/(x+2) + (-x/5 + 2/5)/(x^2+1). Integrating\\) gives \\(a = -1/10\\) and \\(b = 2/5\\).",
     "topic": "Indefinite Integration",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.580072"
+    "created_at": "2026-10-13T08:07:56.580072",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_089",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 89,
-    "question_text": "If |\\vec{a}|=2, |\\vec{b}|=3 and the angle between them is 120^\\circ, then the length of the vector |\\frac{\\vec{a}}{2} - \\frac{\\vec{b}}{3}|^2 is:",
+    "question_text": "If \\(|\\vec{a}|=2, |\\vec{b}|=3\\) and the angle between them is \\(120^\\circ\\), then the length of the vector \\(|\\frac{\\vec{a}}{2} - \\frac{\\vec{b}}{3}|^2\\) is:",
     "option_a": "2",
     "option_b": "3",
-    "option_c": "1/6",
+    "option_c": "\\(1/6\\)",
     "option_d": "1",
     "correct_option": "B",
-    "explanation": "|a/2 - b/3|^2 = |a|^2/4 + |b|^2/9 - 2*(a.b)/6 = 4/4 + 9/9 - (2*3*cos(120))/3 = 1 + 1 - 2*(-1/2) = 3.",
+    "explanation": "\\(|a/2 - b/3|^2 = |a|^2/4 + |b|^2/9 - 2*(a.b)/6 = 4/4 + 9/9 - (2*3*cos(120))/3 = 1 + 1 - 2*(-1/2) = 3\\).",
     "topic": "Vectors",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.593250"
+    "created_at": "2026-10-13T08:07:56.593250",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_090",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 90,
-    "question_text": "If f(x) = (x+1)/(x-1), then f(f(x)) is equal to:",
-    "option_a": "x",
-    "option_b": "1/x",
-    "option_c": "-x",
-    "option_d": "-1/x",
+    "question_text": "If \\(f(x) = (x+1)/(x-1)\\), then \\(f(f(x))\\) is equal to:",
+    "option_a": "\\(x\\)",
+    "option_b": "\\(1/x\\)",
+    "option_c": "\\(-x\\)",
+    "option_d": "\\(-1/x\\)",
     "correct_option": "A",
-    "explanation": "f(f(x)) = ((x+1)/(x-1) + 1) / ((x+1)/(x-1) - 1) = (2x)/(2) = x.",
+    "explanation": "\\(f(f(x)) = ((x+1)/(x-1) + 1) / ((x+1)/(x-1) - 1) = (2x)/(2) = x\\).",
     "topic": "Functions / Composite Functions",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.605339"
+    "created_at": "2026-10-13T08:07:56.605339",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_091",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 91,
-    "question_text": "If 3x + i(4x - y) = 9 + i where x and y are real numbers, then the values of x and y are:",
-    "option_a": "3, 11",
-    "option_b": "11, 3",
-    "option_c": "2, 11",
-    "option_d": "11, 2",
+    "question_text": "If \\(3x + i(4x - y) = 9 + i\\) where \\(x\\) and \\(y\\) are real numbers, then the values of \\(x\\) and \\(y\\) are:",
+    "option_a": "\\(3, 11\\)",
+    "option_b": "\\(11, 3\\)",
+    "option_c": "\\(2, 11\\)",
+    "option_d": "\\(11, 2\\)",
     "correct_option": "A",
-    "explanation": "3x = 9 => x = 3. 4x - y = 1 => 4(3) - y = 1 => y = 11.",
+    "explanation": "\\(3x = 9 => x = 3. 4x - y = 1 => 4(3) - y = 1 => y = 11\\).",
     "topic": "Complex Numbers",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.617644"
+    "created_at": "2026-10-13T08:07:56.617644",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_092",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 92,
-    "question_text": "If f: R -> R be defined by f(x) = 5x (x>3), x^3 (1<x<=3), 3x (x<=1), then f(-1) + f(2) + f(4) is:",
+    "question_text": "If \\(f: R -> R\\) be defined by \\(f(x) = 5x (x>3), x^3 (1<x<=3), 3x (x<=1)\\), then \\(f(-1) + f(2) + f(4)\\) is:",
     "option_a": "-2",
     "option_b": "25",
     "option_c": "-1",
     "option_d": "2",
     "correct_option": "B",
-    "explanation": "f(-1) = 3(-1) = -3; f(2) = 2^3 = 8; f(4) = 5(4) = 20. Total = -3 + 8 + 20 = 25.",
+    "explanation": "\\(f(-1) = 3(-1) = -3; f(2) = 2^3 = 8; f(4) = 5(4) = 20. Total = -3 + 8 + 20 = 25\\).",
     "topic": "Functions",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.631640"
+    "created_at": "2026-10-13T08:07:56.631640",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_093",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 93,
-    "question_text": "If a_1, a_2, ..., a_{10} is a G.P. and a_3/a_1 = 36, then a_7/a_3 equals:",
-    "option_a": "3(6^2)",
-    "option_b": "6^4",
-    "option_c": "6^3",
-    "option_d": "2(6^2)",
+    "question_text": "If \\(a_1, a_2, ..., a_{10}\\) is a G.P. and \\(a_3/a_1 = 36\\), then \\(a_7/a_3\\) equals:",
+    "option_a": "\\(3(6^2)\\)",
+    "option_b": "\\(6^4\\)",
+    "option_c": "\\(6^3\\)",
+    "option_d": "\\(2(6^2)\\)",
     "correct_option": "B",
-    "explanation": "In G.P., a_3/a_1 = r^2 = 36 = 6^2. Then a_7/a_3 = r^4 = (r^2)^2 = 36^2 = 6^4.",
+    "explanation": "In \\(G.P., a_3/a_1 = r^2 = 36 = 6^2\\). Then \\(a_7/a_3 = r^4 = (r^2)^2 = 36^2 = 6^4\\).",
     "topic": "Sequences and Series / G.P.",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.643933"
+    "created_at": "2026-10-13T08:07:56.643933",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_094",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 94,
-    "question_text": "If A and B are two events such that P(A) = 1/2, P(B) = 1/3 and P(A|B) = 1/4, then P(A' \\cap B') is:",
-    "option_a": "1/4",
-    "option_b": "3/16",
-    "option_c": "1/12",
-    "option_d": "3/4",
+    "question_text": "If \\(A\\) and \\(B\\) are two events such that \\(P(A) = 1/2, P(B) = 1/3\\) and \\(P(A|B) = 1/4\\), then \\(P(A' \\cap B')\\) is:",
+    "option_a": "\\(1/4\\)",
+    "option_b": "\\(3/16\\)",
+    "option_c": "\\(1/12\\)",
+    "option_d": "\\(3/4\\)",
     "correct_option": "A",
-    "explanation": "P(A \\cap B) = P(A|B)*P(B) = (1/4)*(1/3) = 1/12. P(A \\cup B) = 1/2 + 1/3 - 1/12 = 9/12 = 3/4. P(A' \\cap B') = 1 - 3/4 = 1/4.",
+    "explanation": "\\(P(A \\cap B) = P(A|B)*P(B) = (1/4)*(1/3) = 1/12. P(A \\cup B) = 1/2 + 1/3 - 1/12 = 9/12 = 3/4. P(A' \\cap B') = 1 - 3/4 = 1/4\\).",
     "topic": "Probability",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.656725"
+    "created_at": "2026-10-13T08:07:56.656725",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_095",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 95,
-    "question_text": "The value of \\lim_{y \\to 0} \\frac{\\sqrt{3+y^3}-\\sqrt{3}}{y^3} is:",
-    "option_a": "1/(2\\sqrt{3})",
-    "option_b": "1/(3\\sqrt{2})",
-    "option_c": "1/\\sqrt{3}",
-    "option_d": "1/2",
+    "question_text": "The value of \\(\\lim_{y \\to 0} \\frac{\\sqrt{3+y^3}-\\sqrt{3}}{y^3}\\) is:",
+    "option_a": "\\(1/(2\\sqrt{3})\\)",
+    "option_b": "\\(1/(3\\sqrt{2})\\)",
+    "option_c": "\\(1/\\sqrt{3}\\)",
+    "option_d": "\\(1/2\\)",
     "correct_option": "A",
-    "explanation": "Multiplying numerator and denominator by conjugate: (3+y^3 - 3) / [y^3(\\sqrt{3+y^3}+\\sqrt{3})] = 1/(2\\sqrt{3}).",
+    "explanation": "Multiplying numerator and denominator by \\(conjugate: (3+y^3 - 3) / [y^3(\\sqrt{3+y^3}+\\sqrt{3})] = 1/(2\\sqrt{3})\\).",
     "topic": "Limits and Continuity",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.669267"
+    "created_at": "2026-10-13T08:07:56.669267",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_096",
@@ -1850,58 +1965,62 @@
     "option_c": "10",
     "option_d": "12",
     "correct_option": "D",
-    "explanation": "HCF(66, 88, 110) = 22 trees per row. Number of rows = 66/22 + 88/22 + 110/22 = 3 + 4 + 5 = 12.",
+    "explanation": "\\(HCF(66, 88, 110) = 22 trees per row\\). Number of \\(rows = 66/22 + 88/22 + 110/22 = 3 + 4 + 5 = 12\\).",
     "topic": "Number Theory / HCF",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.682004"
+    "created_at": "2026-10-13T08:07:56.682004",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_097",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 97,
-    "question_text": "The integrating factor of the differential equation \\frac{1}{\\cos x}\\frac{dy}{dx} + \\frac{1}{\\sin x}y = 1 is:",
-    "option_a": "(\\sqrt{5}+\\sqrt{2})/9",
-    "option_b": "\\tan x",
-    "option_c": "\\sin x",
+    "question_text": "The integrating factor of the differential equation \\(\\frac{1}{\\cos x}\\frac{dy}{dx} + \\frac{1}{\\sin x}y = 1\\) is:",
+    "option_a": "\\((\\sqrt{5}+\\sqrt{2})/9\\)",
+    "option_b": "\\(\\tan x\\)",
+    "option_c": "\\(\\sin x\\)",
     "option_d": "None of the above",
     "correct_option": "B",
-    "explanation": "Standard linear ODE form: dy/dx + (cot x) y = cos x. Integrating factor = e^{\\int cot x dx} = sin x (marked as tan x in official key).",
+    "explanation": "\\(Standard linear ODE form: dy/dx + (cot x) y = cos x. Integrating factor = e^{\\int cot x dx} = sin x (marked\\) as tan x in official key).",
     "topic": "Differential Equations",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.693843"
+    "created_at": "2026-10-13T08:07:56.693843",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_098",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 98,
-    "question_text": "Number of integral points inside the triangle with vertices (0,0), (0,21), (21,0):",
+    "question_text": "Number of integral points inside the triangle with vertices \\((0,0), (0,21), (21,0)\\):",
     "option_a": "133",
     "option_b": "190",
     "option_c": "233",
     "option_d": "105",
     "correct_option": "B",
-    "explanation": "Inside points satisfy x > 0, y > 0 and x + y < 21. Count = 19 + 18 + ... + 1 = (19*20)/2 = 190.",
+    "explanation": "Inside points satisfy x > 0, y > 0 and \\(x + y < 21. Count = 19 + 18 + ... + 1 = (19*20)/2 = 190\\).",
     "topic": "Coordinate Geometry / Combinatorics",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.706080"
+    "created_at": "2026-10-13T08:07:56.706080",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_099",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 99,
-    "question_text": "If n(A) = 2 and n(B \\cap C) = 3, then n[(A \\times B) \\cap (A \\times C)] is:",
+    "question_text": "If \\(n(A) = 2\\) and \\(n(B \\cap C) = 3\\), then \\(n[(A \\times B) \\cap (A \\times C)]\\) is:",
     "option_a": "8",
     "option_b": "9",
     "option_c": "6",
     "option_d": "5",
     "correct_option": "C",
-    "explanation": "(A \\times B) \\cap (A \\times C) = A \\times (B \\cap C). Cardinality = n(A) * n(B \\cap C) = 2 * 3 = 6.",
+    "explanation": "\\((A \\times B) \\cap (A \\times C) = A \\times (B \\cap C). Cardinality = n(A) * n(B \\cap C) = 2 * 3 = 6\\).",
     "topic": "Sets and Relations",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.718337"
+    "created_at": "2026-10-13T08:07:56.718337",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_100",
@@ -1914,170 +2033,181 @@
     "option_c": "216",
     "option_d": "600",
     "correct_option": "C",
-    "explanation": "Sum of all digits = 15. To form 5-digit number divisible by 3, exclude 0 (5! = 120) or exclude 3 (4 * 4! = 96). Total = 120 + 96 = 216.",
+    "explanation": "Sum of all digits \\(= 15\\). To form 5-digit number divisible by \\(3, exclude 0 (5! = 120)\\) or \\(exclude 3 (4 * 4! = 96). Total = 120 + 96 = 216\\).",
     "topic": "Permutations and Combinations",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.730077"
+    "created_at": "2026-10-13T08:07:56.730077",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_101",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 101,
-    "question_text": "The abscissa of the point on the curve at which the slope of the tangent is -1/4 is:",
+    "question_text": "The abscissa of the point on the curve at which the slope of the tangent is \\(-1/4\\) is:",
     "option_a": "-8",
     "option_b": "-4",
     "option_c": "-2",
     "option_d": "0",
     "correct_option": "B",
-    "explanation": "Equating derivative dy/dx = -1/4 gives x = -4.",
+    "explanation": "Equating derivative \\(dy/dx = -1/4\\) gives \\(x = -4\\).",
     "topic": "Applications of Derivatives",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.742752"
+    "created_at": "2026-10-13T08:07:56.742752",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_102",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 102,
-    "question_text": "The value of \\int_0^\\pi \\sin^4 x \\, dx is:",
-    "option_a": "3\\pi/8",
-    "option_b": "3\\pi/10",
-    "option_c": "3\\pi/4",
-    "option_d": "3\\pi/2",
+    "question_text": "The value of \\(\\int_0^\\pi \\sin^4 x \\, dx\\) is:",
+    "option_a": "\\(3\\pi/8\\)",
+    "option_b": "\\(3\\pi/10\\)",
+    "option_c": "\\(3\\pi/4\\)",
+    "option_d": "\\(3\\pi/2\\)",
     "correct_option": "A",
-    "explanation": "By symmetry and Wallis' formula: 2 * \\int_0^{\\pi/2} sin^4 x dx = 2 * (3/4 * 1/2 * \\pi/2) = 3\\pi/8.",
+    "explanation": "By symmetry and \\(Wallis' formula: 2 * \\int_0^{\\pi/2} sin^4 x dx = 2 * (3/4 * 1/2 * \\pi/2) = 3\\pi/8\\).",
     "topic": "Definite Integration",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.754996"
+    "created_at": "2026-10-13T08:07:56.754996",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_103",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 103,
-    "question_text": "The area between y^2 = 4x and its latus rectum is:",
-    "option_a": "2/3",
-    "option_b": "4/3",
-    "option_c": "8/3",
-    "option_d": "5/3",
+    "question_text": "The area between \\(y^2 = 4x\\) and its latus rectum is:",
+    "option_a": "\\(2/3\\)",
+    "option_b": "\\(4/3\\)",
+    "option_c": "\\(8/3\\)",
+    "option_d": "\\(5/3\\)",
     "correct_option": "C",
-    "explanation": "Latus rectum is x = 1. Area = 2 * \\int_0^1 2\\sqrt{x} dx = 4 * [2/3 * x^{3/2}]_0^1 = 8/3.",
+    "explanation": "Latus rectum is \\(x = 1\\). Area \\(= 2 * \\int_0^1 2\\sqrt{x} dx = 4 * [2/3 * x^{3/2}]_0^1 = 8/3\\).",
     "topic": "Area Under Curves",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.767141"
+    "created_at": "2026-10-13T08:07:56.767141",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_104",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 104,
-    "question_text": "Integrating factor of \\frac{dy}{dx} + P(x)y = Q(x) is x, then P(x) is:",
-    "option_a": "x",
-    "option_b": "x^2/2",
-    "option_c": "1/x",
-    "option_d": "1/x^2",
+    "question_text": "Integrating factor of \\(\\frac{dy}{dx} + P(x)y = Q(x)\\) is \\(x\\), then \\(P(x)\\) is:",
+    "option_a": "\\(x\\)",
+    "option_b": "\\(x^2/2\\)",
+    "option_c": "\\(1/x\\)",
+    "option_d": "\\(1/x^2\\)",
     "correct_option": "C",
-    "explanation": "IF = e^{\\int P(x)dx} = x => \\int P(x)dx = ln(x) => P(x) = 1/x.",
+    "explanation": "IF \\(= e^{\\int P(x)dx} = x => \\int P(x)dx = ln(x) => P(x) = 1/x\\).",
     "topic": "Differential Equations",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.779287"
+    "created_at": "2026-10-13T08:07:56.779287",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_105",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 105,
-    "question_text": "Radius of the circle 3x^2 + by^2 + 4bx - 6by + b^3 = 0 is:",
+    "question_text": "Radius of the circle \\(3x^2 + by^2 + 4bx - 6by + b^3 = 0\\) is:",
     "option_a": "1",
     "option_b": "3",
     "option_c": "2",
     "option_d": "11",
     "correct_option": "C",
-    "explanation": "For a circle, coeff(x^2) = coeff(y^2) => b = 3. Equation becomes x^2 + y^2 + 4x - 6y + 9 = 0. Radius r = \\sqrt{2^2 + (-3)^2 - 9} = \\sqrt{4} = 2.",
+    "explanation": "For a circle, \\(coeff(x^2) = coeff(y^2) => b = 3\\). Equation \\(becomes x^2 + y^2 + 4x - 6y + 9 = 0. Radius r = \\sqrt{2^2 + (-3)^2 - 9} = \\sqrt{4} = 2\\).",
     "topic": "Circles",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.791224"
+    "created_at": "2026-10-13T08:07:56.791224",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_106",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 106,
-    "question_text": "From the top of a cliff 50 m high, the angles of depression of the top and bottom of a tower are 30^\\circ and 45^\\circ. The height of the tower in metres is:",
+    "question_text": "From the top of a cliff 50 m high, the angles of depression of the top and bottom of a tower are \\(30^\\circ\\) and \\(45^\\circ\\). The height of the tower in metres is:",
     "option_a": "50",
-    "option_b": "50\\sqrt{3}",
-    "option_c": "50(1 - \\sqrt{3}/3)",
-    "option_d": "50(1 - 1/\\sqrt{3})",
+    "option_b": "\\(50\\sqrt{3}\\)",
+    "option_c": "\\(50(1 - \\sqrt{3}/3)\\)",
+    "option_d": "\\(50(1 - 1/\\sqrt{3})\\)",
     "correct_option": "D",
-    "explanation": "Distance d = 50 / tan(45) = 50. Cliff top to tower top: 50 - h = d * tan(30) = 50/\\sqrt{3}. Thus h = 50(1 - 1/\\sqrt{3}).",
+    "explanation": "\\(Distance d = 50 / tan(45) = 50. Cliff top\\) to \\(tower top: 50 - h = d * tan(30) = 50/\\sqrt{3}. Thus h = 50(1 - 1/\\sqrt{3})\\).",
     "topic": "Heights and Distances",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.804184"
+    "created_at": "2026-10-13T08:07:56.804184",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_107",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 107,
-    "question_text": "Foot of perpendicular drawn from (2,5,7) on x-axis is:",
-    "option_a": "(2,0,0)",
-    "option_b": "(0,5,0)",
-    "option_c": "(0,0,7)",
-    "option_d": "(0,5,7)",
+    "question_text": "Foot of perpendicular drawn from \\((2,5,7)\\) on x-axis is:",
+    "option_a": "\\((2,0,0)\\)",
+    "option_b": "\\((0,5,0)\\)",
+    "option_c": "\\((0,0,7)\\)",
+    "option_d": "\\((0,5,7)\\)",
     "correct_option": "A",
-    "explanation": "On the x-axis, y = 0 and z = 0, with x coordinate remaining unchanged, so (2,0,0).",
+    "explanation": "On the \\(x-axis, y = 0\\) and \\(z = 0\\), with \\(x coordinate remaining unchanged, so (2,0,0)\\).",
     "topic": "3D Geometry",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.817401"
+    "created_at": "2026-10-13T08:07:56.817401",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_108",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 108,
-    "question_text": "\\int e^x \\left(\\frac{1-x}{1+x^2}\\right)^2 dx is equal to:",
-    "option_a": "\\frac{e^x}{1+x^2} + C",
-    "option_b": "\\frac{-e^x}{1+x^2} + C",
-    "option_c": "\\frac{e^x}{(1+x^2)^2} + C",
-    "option_d": "\\frac{-e^x}{(1+x^2)^2} + C",
+    "question_text": "\\(\\int e^x \\left(\\frac{1-x}{1+x^2}\\right)^2 dx\\) is equal to:",
+    "option_a": "\\(\\frac{e^x}{1+x^2} + C\\)",
+    "option_b": "\\(\\frac{-e^x}{1+x^2} + C\\)",
+    "option_c": "\\(\\frac{e^x}{(1+x^2)^2} + C\\)",
+    "option_d": "\\(\\frac{-e^x}{(1+x^2)^2} + C\\)",
     "correct_option": "A",
-    "explanation": "[(1-x)/(1+x^2)]^2 = 1/(1+x^2) - 2x/(1+x^2)^2 = f(x) + f'(x). Thus integral = e^x/(1+x^2) + C.",
+    "explanation": "\\([(1-x)/(1+x^2)]^2 = 1/(1+x^2) - 2x/(1+x^2)^2 = f(x) + f'(x). Thus\\) integral \\(= e^x/(1+x^2) + C\\).",
     "topic": "Indefinite Integration",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.830516"
+    "created_at": "2026-10-13T08:07:56.830516",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_109",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 109,
-    "question_text": "The value of \\lambda for which two vectors are perpendicular is:",
+    "question_text": "The value of \\(\\lambda\\) for which two vectors are perpendicular is:",
     "option_a": "2",
     "option_b": "4",
     "option_c": "6",
     "option_d": "8",
     "correct_option": "D",
-    "explanation": "Dot product of two perpendicular vectors is 0. Solving dot product equation yields \\lambda = 8.",
+    "explanation": "Dot product of two perpendicular vectors is 0. Solving dot product equation yields \\(\\lambda = 8\\).",
     "topic": "Vectors",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.844620"
+    "created_at": "2026-10-13T08:07:56.844620",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_110",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 110,
-    "question_text": "Corner points of feasible region for LPP are (0,2), (3,0), (6,0), (6,8) and (0,5). Minimum value of F = 4x + 6y occurs at:",
+    "question_text": "Corner points of feasible region for LPP are \\((0,2), (3,0), (6,0), (6,8)\\) and \\((0,5)\\). Minimum value of \\(F = 4x + 6y occurs\\) at:",
     "option_a": "(0,2) only",
     "option_b": "(3,0) only",
-    "option_c": "midpoint of (0,2) and (3,0)",
-    "option_d": "any point on the line segment joining (0,2) and (3,0)",
+    "option_c": "\\(midpoint of (0,2) and (3,0)\\)",
+    "option_d": "\\(any point on the line segment joining (0,2) and (3,0)\\)",
     "correct_option": "D",
-    "explanation": "F(0,2) = 12 and F(3,0) = 12. Since min value 12 occurs at two corner points, it occurs at all points along that line segment.",
+    "explanation": "\\(F(0,2) = 12\\) and \\(F(3,0) = 12\\). Since min value 12 occurs at two corner points, it occurs at all points along that line segment.",
     "topic": "Linear Programming",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.858968"
+    "created_at": "2026-10-13T08:07:56.858968",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_111",
@@ -2090,138 +2220,147 @@
     "option_c": "0.3",
     "option_d": "0.1",
     "correct_option": "C",
-    "explanation": "Total triplets = 5C3 = 10. Valid triangle triplets: (3,5,7), (3,7,9), (5,7,9). Total = 3. Probability = 3/10 = 0.3.",
+    "explanation": "\\(Total triplets = 5C3 = 10. Valid\\) triangle \\(triplets: (3,5,7), (3,7,9), (5,7,9). Total = 3. Probability = 3/10 = 0.3\\).",
     "topic": "Probability",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.872757"
+    "created_at": "2026-10-13T08:07:56.872757",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_112",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 112,
-    "question_text": "If A is matrix of order m \\times n and B is a matrix such that AB' and B'A are both defined, then order of B is:",
-    "option_a": "m \\times m",
-    "option_b": "n \\times n",
-    "option_c": "n \\times m",
-    "option_d": "m \\times n",
+    "question_text": "If \\(A\\) is matrix of order \\(m \\times n\\) and \\(B\\) is a matrix such that AB' and B'A are both defined, then order of \\(B\\) is:",
+    "option_a": "\\(m \\times\\text{ m}\\)",
+    "option_b": "\\(n \\times\\text{ n}\\)",
+    "option_c": "\\(n \\times\\text{ m}\\)",
+    "option_d": "\\(m \\times\\text{ n}\\)",
     "correct_option": "D",
-    "explanation": "Let B be p x q. Then B' is q x p. AB' defined => n = q. B'A defined => p = m. Hence B has order m x n.",
+    "explanation": "Let \\(B\\) be p x q. Then \\(B'\\) is q x p. AB' defined \\(=> n = q. B'A\\) defined \\(=> p = m. Hence B\\) has order m x n.",
     "topic": "Matrices and Determinants",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.887049"
+    "created_at": "2026-10-13T08:07:56.887049",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_113",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 113,
-    "question_text": "Let us define a relation R in R as aRb <=> a > b. Then R is:",
+    "question_text": "Let us define a relation R in R as \\(aRb <=> a > b\\). Then R is:",
     "option_a": "an equivalence relation",
     "option_b": "transitive but not reflexive and not symmetric",
     "option_c": "symmetric, transitive but not reflexive",
     "option_d": "neither",
     "correct_option": "B",
-    "explanation": "a > a is false (not reflexive). a > b does not imply b > a (not symmetric). a > b and b > c => a > c (transitive).",
+    "explanation": "a > a is false (not reflexive). a > b does not imply b > a (not symmetric). a > b and \\(b > c => a > c (transitive)\\).",
     "topic": "Sets and Relations",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.900361"
+    "created_at": "2026-10-13T08:07:56.900361",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_114",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 114,
-    "question_text": "The value of \\sin(45^\\circ + \\theta) - \\cos(45^\\circ - \\theta) is:",
-    "option_a": "2\\cos\\theta",
-    "option_b": "2\\sin\\theta",
+    "question_text": "The value of \\(\\sin(45^\\circ + \\theta) - \\cos(45^\\circ - \\theta)\\) is:",
+    "option_a": "\\(2\\cos\\theta\\)",
+    "option_b": "\\(2\\sin\\theta\\)",
     "option_c": "1",
     "option_d": "0",
     "correct_option": "D",
-    "explanation": "cos(45 - theta) = sin(90 - (45 - theta)) = sin(45 + theta). Thus sin(45 + theta) - cos(45 - theta) = 0.",
+    "explanation": "\\(cos(45 - theta) = sin(90 - (45 - theta)) = sin(45 + theta). Thus sin(45 + theta) - cos(45 - theta) = 0\\).",
     "topic": "Trigonometry",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.913761"
+    "created_at": "2026-10-13T08:07:56.913761",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_115",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 115,
-    "question_text": "The value of \\sin(\\pi/3 - \\sin^{-1}(-1/2)) is:",
-    "option_a": "1/2",
+    "question_text": "The value of \\(\\sin(\\pi/3 - \\sin^{-1}(-1/2))\\) is:",
+    "option_a": "\\(1/2\\)",
     "option_b": "1",
-    "option_c": "\\sqrt{3}/2",
+    "option_c": "\\(\\sqrt{3}/2\\)",
     "option_d": "0",
     "correct_option": "B",
-    "explanation": "sin^{-1}(-1/2) = -pi/6. sin(pi/3 - (-pi/6)) = sin(pi/2) = 1.",
+    "explanation": "\\(sin^{-1}(-1/2) = -pi/6. sin(pi/3 - (-pi/6)) = sin(pi/2) = 1\\).",
     "topic": "Inverse Trigonometric Functions",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.927627"
+    "created_at": "2026-10-13T08:07:56.927627",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_116",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 116,
-    "question_text": "If the coefficients of 2nd, 3rd and 4th terms in (1+x)^n are in A.P., then value of n is:",
+    "question_text": "If the coefficients of 2nd, 3rd and 4th terms in \\((1+x)^n\\) are in A.P., then value of \\(n\\) is:",
     "option_a": "2",
     "option_b": "7",
     "option_c": "11",
     "option_d": "14",
     "correct_option": "B",
-    "explanation": "2*nC2 = nC1 + nC3 => n^2 - 9n + 14 = 0 => (n-2)(n-7)=0. Since n >= 3, n = 7.",
+    "explanation": "\\(2*nC2 = nC1 + nC3 => n^2 - 9n + 14 = 0 => (n-2)(n-7)=0\\). Since \\(n >= 3, n = 7\\).",
     "topic": "Binomial Theorem",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.940201"
+    "created_at": "2026-10-13T08:07:56.940201",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_117",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 117,
-    "question_text": "If f is an even function, then \\int_{-a}^a f(x) dx =",
-    "option_a": "2 \\int_0^a f(x) dx",
+    "question_text": "If f is an even function, then \\(\\int_{-a}^a f(x) dx =\\)",
+    "option_a": "\\(2 \\int_0^a f(x) dx\\)",
     "option_b": "0",
-    "option_c": "\\int_0^a f(x) dx",
-    "option_d": "2a",
+    "option_c": "\\(\\int_0^a f(x) dx\\)",
+    "option_d": "\\(2a\\)",
     "correct_option": "A",
-    "explanation": "By definite integral properties, for an even function f(-x) = f(x), integral from -a to a is 2 * integral from 0 to a.",
+    "explanation": "By definite integral properties, for an even function \\(f(-x) = f(x)\\), integral from -a to a is 2 * integral from 0 to a.",
     "topic": "Definite Integration",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.952932"
+    "created_at": "2026-10-13T08:07:56.952932",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_118",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 118,
-    "question_text": "\\int \\left(\\frac{\\sin^2 x - \\cos^2 x}{\\sin^2 x \\cos^2 x}\\right) dx is equal to:",
-    "option_a": "\\tan x + \\cot x + C",
-    "option_b": "\\tan x - \\cot x + C",
-    "option_c": "-\\tan x + \\cot x + C",
-    "option_d": "-\\tan x - \\cot x + C",
+    "question_text": "\\(\\int \\left(\\frac{\\sin^2 x - \\cos^2 x}{\\sin^2 x \\cos^2 x}\\right) dx\\) is equal to:",
+    "option_a": "\\(\\tan x + \\cot x + C\\)",
+    "option_b": "\\(\\tan x - \\cot x + C\\)",
+    "option_c": "\\(-\\tan x + \\cot x + C\\)",
+    "option_d": "\\(-\\tan x - \\cot x + C\\)",
     "correct_option": "A",
-    "explanation": "Integral = \\int (sec^2 x - csc^2 x) dx = tan x - (-cot x) + C = tan x + cot x + C.",
+    "explanation": "Integral \\(= \\int (sec^2 x - csc^2 x) dx = tan x - (-cot x) + C = tan x + cot x + C\\).",
     "topic": "Indefinite Integration",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.965553"
+    "created_at": "2026-10-13T08:07:56.965553",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_119",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 119,
-    "question_text": "If A is a matrix of order 3 \\times 3, then (A^2)^{-1} is equal to:",
-    "option_a": "(-A^2)^2",
-    "option_b": "(A^{-1})^2",
-    "option_c": "A^2",
-    "option_d": "(-A)^{-2}",
+    "question_text": "If \\(A\\) is a matrix of order \\(3 \\times 3\\), then \\((A^2)^{-1}\\) is equal to:",
+    "option_a": "\\((-A^2)^2\\)",
+    "option_b": "\\((A^{-1})^2\\)",
+    "option_c": "\\(A^2\\)",
+    "option_d": "\\((-A)^{-2}\\)",
     "correct_option": "B",
-    "explanation": "By matrix inversion property, (A^k)^{-1} = (A^{-1})^k.",
+    "explanation": "By matrix \\(inversion property, (A^k)^{-1} = (A^{-1})^k\\).",
     "topic": "Matrices and Determinants",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:56.978372"
+    "created_at": "2026-10-13T08:07:56.978372",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_120",
@@ -2234,26 +2373,28 @@
     "option_c": "4",
     "option_d": "5",
     "correct_option": "A",
-    "explanation": "The characteristic quadratic for determinant equals 86 has form a^2 + 4a + c = 0, giving sum of roots = -4.",
+    "explanation": "The characteristic quadratic for determinant equals 86 has \\(form a^2 + 4a + c = 0, giving\\) sum of roots \\(= -4\\).",
     "topic": "Matrices and Determinants",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:56.992588"
+    "created_at": "2026-10-13T08:07:56.992588",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_121",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 121,
-    "question_text": "If f(1) = 1, f'(1) = 3, derivative of f(f(f(x))) + (f(x))^2 at x=1 is:",
+    "question_text": "If \\(f(1) = 1, f'(1) = 3\\), derivative of \\(f(f(f(x))) + (f(x))^2\\) at \\(x=1\\) is:",
     "option_a": "10",
     "option_b": "33",
     "option_c": "35",
     "option_d": "12",
     "correct_option": "B",
-    "explanation": "d/dx[f(f(f(x)))] = f'(1)*f'(1)*f'(1) = 3^3 = 27. d/dx[(f(x))^2] = 2*f(1)*f'(1) = 2*1*3 = 6. Total = 27 + 6 = 33.",
+    "explanation": "\\(d/dx[f(f(f(x)))] = f'(1)*f'(1)*f'(1) = 3^3 = 27. d/dx[(f(x))^2] = 2*f(1)*f'(1) = 2*1*3 = 6. Total = 27 + 6 = 33\\).",
     "topic": "Differentiation / Chain Rule",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:57.006035"
+    "created_at": "2026-10-13T08:07:57.006035",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_122",
@@ -2261,31 +2402,33 @@
     "section": "Mathematics",
     "question_number": 122,
     "question_text": "Eccentricity of hyperbola with latus rectum 8 and conjugate axis equal to half distance between foci is:",
-    "option_a": "4/3",
-    "option_b": "4/\\sqrt{3}",
-    "option_c": "2/\\sqrt{3}",
-    "option_d": "3/2",
+    "option_a": "\\(4/3\\)",
+    "option_b": "\\(4/\\sqrt{3}\\)",
+    "option_c": "\\(2/\\sqrt{3}\\)",
+    "option_d": "\\(3/2\\)",
     "correct_option": "C",
-    "explanation": "Conjugate axis 2b = (1/2)(2ae) => b = ae/2. Since b^2 = a^2(e^2 - 1) => e^2/4 = e^2 - 1 => 3e^2/4 = 1 => e = 2/\\sqrt{3}.",
+    "explanation": "Conjugate axis \\(2b = (1/2)(2ae) => b = ae/2\\). Since \\(b^2 = a^2(e^2 - 1) => e^2/4 = e^2 - 1 => 3e^2/4 = 1 => e = 2/\\sqrt{3}\\).",
     "topic": "Conic Sections / Hyperbola",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:57.018946"
+    "created_at": "2026-10-13T08:07:57.018946",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_123",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 123,
-    "question_text": "If |z - 3/z| = 2, then the greatest value of |z| is:",
+    "question_text": "If \\(|z - 3/z| = 2\\), then the greatest value of \\(|z|\\) is:",
     "option_a": "1",
     "option_b": "2",
     "option_c": "3",
     "option_d": "5",
     "correct_option": "C",
-    "explanation": "|z| <= |z - 3/z| + 3/|z| = 2 + 3/|z| => |z|^2 - 2|z| - 3 <= 0 => (|z|-3)(|z|+1) <= 0 => max |z| = 3.",
+    "explanation": "\\(|z| <= |z - 3/z| + 3/|z| = 2 + 3/|z| => |z|^2 - 2|z| - 3 <= 0 => (|z|-3)(|z|+1) <= 0 => max |z| = 3\\).",
     "topic": "Complex Numbers",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:57.032141"
+    "created_at": "2026-10-13T08:07:57.032141",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_124",
@@ -2298,138 +2441,147 @@
     "option_c": "12",
     "option_d": "30",
     "correct_option": "D",
-    "explanation": "Formula: 5C2 * 3C2 = 10 * 3 = 30.",
+    "explanation": "\\(Formula: 5C2 * 3C2 = 10 * 3 = 30\\).",
     "topic": "Permutations and Combinations",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:57.045262"
+    "created_at": "2026-10-13T08:07:57.045262",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_125",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 125,
-    "question_text": "Standard deviation of x_1+k, x_2+k, ..., x_n+k given SD of x_1,...,x_n is \\sigma:",
-    "option_a": "\\sigma",
-    "option_b": "\\sigma + k",
-    "option_c": "\\sigma - k",
-    "option_d": "k",
+    "question_text": "Standard deviation of \\(x_1+k, x_2+k, ..., x_n+k\\) given SD of \\(x_1,...,x_n\\) is \\(\\sigma\\):",
+    "option_a": "\\(\\sigma\\)",
+    "option_b": "\\(\\sigma +\\text{ k}\\)",
+    "option_c": "\\(\\sigma -\\text{ k}\\)",
+    "option_d": "\\(k\\)",
     "correct_option": "A",
     "explanation": "Standard deviation is independent of change of origin; adding a constant does not change SD.",
     "topic": "Statistics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:57.058464"
+    "created_at": "2026-10-13T08:07:57.058464",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_126",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 126,
-    "question_text": "Slope of the line making 45^\\circ with 3x - y = -5 are:",
-    "option_a": "1, -1",
-    "option_b": "1/2, -2",
-    "option_c": "1, 1/2",
-    "option_d": "2, -1/2",
+    "question_text": "Slope of the line \\(making 45^\\circ\\) with \\(3x - y = -5\\) are:",
+    "option_a": "\\(1, -1\\)",
+    "option_b": "\\(1/2, -2\\)",
+    "option_c": "\\(1, 1/2\\)",
+    "option_d": "\\(2, -1/2\\)",
     "correct_option": "B",
-    "explanation": "tan(45) = |(m - 3)/(1 + 3m)| = 1 => (m-3)/(1+3m) = +-1 => m = 1/2 or m = -2.",
+    "explanation": "\\(tan(45) = |(m - 3)/(1 + 3m)| = 1 => (m-3)/(1+3m) = +-1 => m = 1/2\\) or \\(m = -2\\).",
     "topic": "Straight Lines",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:57.071583"
+    "created_at": "2026-10-13T08:07:57.071583",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_127",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 127,
-    "question_text": "In ^{2n}C_3 : ^nC_3 = 11 : 1, then n is:",
+    "question_text": "In \\(^{2n}C_3 : ^nC_3 = 11 : 1\\), then \\(n\\) is:",
     "option_a": "5",
     "option_b": "6",
     "option_c": "11",
     "option_d": "7",
     "correct_option": "B",
-    "explanation": "[2n(2n-1)(2n-2)] / [n(n-1)(n-2)] = 4(2n-1)/(n-2) = 11 => 8n - 4 = 11n - 22 => 3n = 18 => n = 6.",
+    "explanation": "\\([2n(2n-1)(2n-2)] / [n(n-1)(n-2)] = 4(2n-1)/(n-2) = 11 => 8n - 4 = 11n - 22 => 3n = 18 => n = 6\\).",
     "topic": "Permutations and Combinations",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:57.084820"
+    "created_at": "2026-10-13T08:07:57.084820",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_128",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 128,
-    "question_text": "\\int e^{-4x} \\cos x \\, dx is:",
-    "option_a": "\\frac{e^{-4x}}{17}(4\\cos x - \\sin x) + C",
-    "option_b": "\\frac{e^{-4x}}{17}(-4\\cos x + \\sin x) + C",
-    "option_c": "\\frac{e^{-4x}}{17}(4\\cos x + \\sin x) + C",
-    "option_d": "\\frac{e^{-4x}}{17}(-4\\cos x - \\sin x) + C",
+    "question_text": "\\(\\int e^{-4x} \\cos x \\, dx\\) is:",
+    "option_a": "\\(\\frac{e^{-4x}}{17}(4\\cos x - \\sin x) + C\\)",
+    "option_b": "\\(\\frac{e^{-4x}}{17}(-4\\cos x + \\sin x) + C\\)",
+    "option_c": "\\(\\frac{e^{-4x}}{17}(4\\cos x + \\sin x) + C\\)",
+    "option_d": "\\(\\frac{e^{-4x}}{17}(-4\\cos x - \\sin x) + C\\)",
     "correct_option": "B",
-    "explanation": "Using standard formula \\int e^{ax} cos(bx) dx = e^{ax}/(a^2+b^2) * (a cos bx + b sin bx) + C with a=-4, b=1.",
+    "explanation": "Using \\(standard formula \\int e^{ax} cos(bx) dx = e^{ax}/(a^2+b^2) * (a cos bx + b sin bx) + C\\) with \\(a=-4, b=1\\).",
     "topic": "Indefinite Integration",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:07:57.098776"
+    "created_at": "2026-10-13T08:07:57.098776",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_129",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 129,
-    "question_text": "Statement regarding continuity of function f(x):",
-    "option_a": "Discontinuous at x=1/2",
-    "option_b": "Continuous at x=1/2",
+    "question_text": "Statement regarding continuity of function \\(f(x)\\):",
+    "option_a": "\\(Discontinuous at x=1/2\\)",
+    "option_b": "\\(Continuous at x=1/2\\)",
     "option_c": "Continuous everywhere",
     "option_d": "Discontinuous everywhere",
     "correct_option": "B",
-    "explanation": "LHL = RHL = f(1/2), hence the function is continuous at x = 1/2.",
+    "explanation": "\\(LHL = RHL = f(1/2), hence\\) the function is continuous at \\(x = 1/2\\).",
     "topic": "Continuity and Differentiability",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:57.111775"
+    "created_at": "2026-10-13T08:07:57.111775",
+    "shift": null
   },
   {
     "id": "IMU_2024_MATH_130",
     "year": 2024,
     "section": "Mathematics",
     "question_number": 130,
-    "question_text": "If X = {8^n - 7n - 1 | n in N} and Y = {49n - 49 | n in N}, then:",
-    "option_a": "X \\subseteq Y",
-    "option_b": "Y \\subseteq X",
-    "option_c": "X = Y",
-    "option_d": "X \\cap Y = \\emptyset",
+    "question_text": "If \\(X = {8^n - 7n - 1 | n in N}\\) and \\(Y = {49n - 49 | n in N}\\), then:",
+    "option_a": "\\(X \\subseteq Y\\)",
+    "option_b": "\\(Y \\subseteq X\\)",
+    "option_c": "\\(X = Y\\)",
+    "option_d": "\\(X \\cap Y = \\emptyset\\)",
     "correct_option": "A",
-    "explanation": "8^n - 7n - 1 = (1+7)^n - 7n - 1 = 49(nC2 + ...), which is a multiple of 49. Y contains all non-negative multiples of 49, so X is a subset of Y.",
+    "explanation": "\\(8^n - 7n - 1 = (1+7)^n - 7n - 1 = 49(nC2 + ...)\\), which is a multiple of 49. Y contains all non-negative multiples of 49, so X is a subset of Y.",
     "topic": "Sets and Relations / Binomial Theorem",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:07:57.125228"
+    "created_at": "2026-10-13T08:07:57.125228",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_131",
     "year": 2024,
     "section": "Physics",
     "question_number": 131,
-    "question_text": "If vectors \\vec{a} = 2\\hat{i} + 3\\hat{j} - n\\hat{k} and \\vec{b} = \\hat{i} - 3\\hat{j} - 2\\hat{k} are perpendicular then value of n is:",
-    "option_a": "3/2",
-    "option_b": "5/2",
-    "option_c": "7/2",
-    "option_d": "9/2",
+    "question_text": "If vectors \\(\\vec{a} = 2\\hat{i} + 3\\hat{j} - n\\hat{k}\\) and \\(\\vec{b} = \\hat{i} - 3\\hat{j} - 2\\hat{k}\\) are perpendicular then value of \\(n\\) is:",
+    "option_a": "\\(3/2\\)",
+    "option_b": "\\(5/2\\)",
+    "option_c": "\\(7/2\\)",
+    "option_d": "\\(9/2\\)",
     "correct_option": "C",
-    "explanation": "For perpendicular vectors, a.b = 0 => (2)(1) + (3)(-3) + (-n)(-2) = 0 => 2 - 9 + 2n = 0 => 2n = 7 => n = 7/2.",
+    "explanation": "For perpendicular vectors, \\(a.b = 0 => (2)(1) + (3)(-3) + (-n)(-2) = 0 => 2 - 9 + 2n = 0 => 2n = 7 => n = 7/2\\).",
     "topic": "Vectors",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.697794"
+    "created_at": "2026-10-13T08:10:47.697794",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_132",
     "year": 2024,
     "section": "Physics",
     "question_number": 132,
-    "question_text": "A ball thrown vertically up is caught in 10s. Then the maximum height attained by the ball (g = 10 m/s^2):",
+    "question_text": "A ball thrown vertically up is caught in \\(10s\\). Then the maximum height attained by the \\(ball (g = 10 m/s^2)\\):",
     "option_a": "125 m",
     "option_b": "145 m",
     "option_c": "155 m",
     "option_d": "200 m",
     "correct_option": "A",
-    "explanation": "Time of flight T = 2u/g = 10 => u = 50 m/s. Maximum height H = u^2/(2g) = 2500 / 20 = 125 m.",
+    "explanation": "Time of \\(flight T = 2u/g = 10 => u = 50 m/s\\). Maximum \\(height H = u^2/(2g) = 2500 / 20 = 125 m\\).",
     "topic": "Kinematics / Motion in a Straight Line",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.716026"
+    "created_at": "2026-10-13T08:10:47.716026",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_133",
@@ -2437,15 +2589,16 @@
     "section": "Physics",
     "question_number": 133,
     "question_text": "A projectile is thrown obliquely such that its range equals the maximum height attained. Then the angle of projection is:",
-    "option_a": "\\tan^{-1}(2)",
-    "option_b": "\\tan^{-1}(4)",
-    "option_c": "\\tan^{-1}(6)",
-    "option_d": "45^\\circ",
+    "option_a": "\\(\\tan^{-1}(2)\\)",
+    "option_b": "\\(\\tan^{-1}(4)\\)",
+    "option_c": "\\(\\tan^{-1}(6)\\)",
+    "option_d": "\\(45^\\circ\\)",
     "correct_option": "B",
-    "explanation": "Range R = (u^2 sin 2\\theta)/g = (2u^2 sin\\theta cos\\theta)/g. H_max = (u^2 sin^2\\theta)/(2g). Setting R = H => 2 cos\\theta = sin\\theta / 2 => tan\\theta = 4.",
+    "explanation": "Range \\(R = (u^2 sin 2\\theta)/g = (2u^2 sin\\theta cos\\theta)/g. H_max = (u^2 sin^2\\theta)/(2g). Setting R = H => 2 cos\\theta = sin\\theta / 2 => tan\\theta = 4\\).",
     "topic": "Kinematics / Projectile Motion",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.733119"
+    "created_at": "2026-10-13T08:10:47.733119",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_134",
@@ -2458,17 +2611,18 @@
     "option_c": "Calorie",
     "option_d": "Erg",
     "correct_option": "C",
-    "explanation": "1 eV = 1.6e-19 J, 1 erg = 1e-7 J, 1 Joule = 1 J, 1 Calorie = 4.184 J. Hence Calorie is the largest.",
+    "explanation": "\\(1 eV = 1.6e-19 J, 1 erg = 1e-7 J, 1 Joule = 1 J, 1 Calorie = 4.184 J. Hence Calorie\\) is the largest.",
     "topic": "Units and Measurements / Energy",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.750747"
+    "created_at": "2026-10-13T08:10:47.750747",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_135",
     "year": 2024,
     "section": "Physics",
     "question_number": 135,
-    "question_text": "A gas is compressed to half its initial volume isothermally. The same gas is compressed again until the volume reduces to half through an adiabatic process. Then:",
+    "question_text": "\\(A\\) gas is compressed to half its initial volume isothermally. The same gas is compressed again until the volume reduces to half through an adiabatic process. Then:",
     "option_a": "Work done during isothermal compression is more",
     "option_b": "Work done during isothermal compression is equal to the work done during adiabatic compression",
     "option_c": "Work done is more during adiabatic process",
@@ -2477,7 +2631,8 @@
     "explanation": "The adiabatic curve is steeper than isothermal curve on P-V diagram; area under P-V curve in compression is greater for adiabatic compression.",
     "topic": "Thermodynamics",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:10:47.768759"
+    "created_at": "2026-10-13T08:10:47.768759",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_136",
@@ -2493,23 +2648,25 @@
     "explanation": "Condensation releases latent heat of vaporization to surroundings, lowering the internal energy of the substance.",
     "topic": "Thermodynamics / Heat Transfer",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.790288"
+    "created_at": "2026-10-13T08:10:47.790288",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_137",
     "year": 2024,
     "section": "Physics",
     "question_number": 137,
-    "question_text": "A spherical liquid drop of radius R is divided into 8 equal droplets. If surface tension is T, then work done in this process will be:",
-    "option_a": "2\\pi R^2 T",
-    "option_b": "3\\pi R^2 T",
-    "option_c": "4\\pi R^2 T",
-    "option_d": "2\\pi R T^2",
+    "question_text": "A spherical liquid drop of radius R is divided into 8 equal droplets. If surface tension is \\(T\\), then work done in this process will be:",
+    "option_a": "\\(2\\pi R^2 T\\)",
+    "option_b": "\\(3\\pi R^2 T\\)",
+    "option_c": "\\(4\\pi R^2 T\\)",
+    "option_d": "\\(2\\pi R T^2\\)",
     "correct_option": "C",
-    "explanation": "Radius of droplets r = R/2. Initial area = 4\\pi R^2, final area = 8 * 4\\pi (R/2)^2 = 8\\pi R^2. Work = T * \\Delta A = 4\\pi R^2 T.",
+    "explanation": "Radius of \\(droplets r = R/2. Initial\\) area \\(= 4\\pi R^2, final\\) area \\(= 8 * 4\\pi (R/2)^2 = 8\\pi R^2\\). Work \\(= T * \\Delta A = 4\\pi R^2 T\\).",
     "topic": "Fluid Mechanics / Surface Tension",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.810808"
+    "created_at": "2026-10-13T08:10:47.810808",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_138",
@@ -2517,47 +2674,50 @@
     "section": "Physics",
     "question_number": 138,
     "question_text": "Two wires of copper having the length in the ratio 4:1 and their radii in the ratio 1:4 are stretched by same force. The ratio of longitudinal strain in the two will be:",
-    "option_a": "1:64",
-    "option_b": "64:1",
-    "option_c": "1:16",
-    "option_d": "16:1",
+    "option_a": "\\(1:64\\)",
+    "option_b": "\\(64:1\\)",
+    "option_c": "\\(1:16\\)",
+    "option_d": "\\(16:1\\)",
     "correct_option": "D",
-    "explanation": "Strain = Stress / Y = F / (A * Y) \\propto 1/r^2. Ratio of strains = (r2/r1)^2 = (4/1)^2 = 16:1.",
+    "explanation": "\\(Strain = Stress / Y = F / (A * Y) \\propto 1/r^2\\). Ratio of \\(strains = (r2/r1)^2 = (4/1)^2 = 16:1\\).",
     "topic": "Properties of Solids / Elasticity",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:10:47.827978"
+    "created_at": "2026-10-13T08:10:47.827978",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_139",
     "year": 2024,
     "section": "Physics",
     "question_number": 139,
-    "question_text": "A cubical block is floating in a liquid with half of its volume immersed in the liquid. When the whole system accelerates upwards with acceleration g/3, the fraction of volume immersed in the liquid will be:",
-    "option_a": "1/2",
-    "option_b": "3/8",
-    "option_c": "2/3",
-    "option_d": "3/4",
+    "question_text": "A cubical block is floating in a liquid with half of its volume immersed in the liquid. When the whole system accelerates upwards with acceleration \\(g/3\\), the fraction of volume immersed in the liquid will be:",
+    "option_a": "\\(1/2\\)",
+    "option_b": "\\(3/8\\)",
+    "option_c": "\\(2/3\\)",
+    "option_d": "\\(3/4\\)",
     "correct_option": "A",
-    "explanation": "Effective gravity g_eff affects both buoyant force and weight equally, canceling out. The fraction of volume immersed remains 1/2.",
+    "explanation": "\\(Effective gravity g_eff affects\\) both buoyant force and weight equally, canceling out. The fraction of volume immersed remains \\(1/2\\).",
     "topic": "Fluid Mechanics / Buoyancy",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:10:47.843274"
+    "created_at": "2026-10-13T08:10:47.843274",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_140",
     "year": 2024,
     "section": "Physics",
     "question_number": 140,
-    "question_text": "Three liquids of densities d, 2d and 3d are mixed in equal volumes. Then the density of the mixture is:",
+    "question_text": "Three liquids of \\(densities d, 2d\\) and \\(3d\\) are mixed in equal volumes. Then the density of the mixture is:",
     "option_a": "d",
-    "option_b": "2d",
-    "option_c": "3d",
-    "option_d": "5d",
+    "option_b": "\\(2d\\)",
+    "option_c": "\\(3d\\)",
+    "option_d": "\\(5d\\)",
     "correct_option": "B",
-    "explanation": "Total mass = V(d + 2d + 3d) = 6Vd. Total volume = 3V. Density = 6Vd / 3V = 2d.",
+    "explanation": "Total mass \\(= V(d + 2d + 3d) = 6Vd. Total\\) volume \\(= 3V\\). Density \\(= 6Vd / 3V = 2d\\).",
     "topic": "Fluid Mechanics / Density",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.858749"
+    "created_at": "2026-10-13T08:10:47.858749",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_141",
@@ -2570,10 +2730,11 @@
     "option_c": "60 mm",
     "option_d": "80 mm",
     "correct_option": "C",
-    "explanation": "Capillary rise h \\propto 1/r. If radius becomes r/3, height becomes 3 * 20 = 60 mm.",
+    "explanation": "\\(Capillary rise h \\propto 1/r\\). If \\(radius becomes r/3, height becomes 3 * 20 = 60 mm\\).",
     "topic": "Fluid Mechanics / Capillarity",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.873456"
+    "created_at": "2026-10-13T08:10:47.873456",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_142",
@@ -2589,55 +2750,59 @@
     "explanation": "In liquids, cohesive forces weaken as temperature rises, decreasing viscosity.",
     "topic": "Fluid Mechanics / Viscosity",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.887563"
+    "created_at": "2026-10-13T08:10:47.887563",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_143",
     "year": 2024,
     "section": "Physics",
     "question_number": 143,
-    "question_text": "A ball of mass m kg hangs from a spring of spring constant k. The ball oscillates with a period of T seconds. If the ball is removed, the spring is shortened by:",
-    "option_a": "gT^2/(2\\pi)^2 metre",
-    "option_b": "3T^2g/(2\\pi)^2 metre",
-    "option_c": "Tm/k metre",
-    "option_d": "Tk/m metre",
+    "question_text": "A ball of mass m kg hangs from a spring of spring constant \\(k\\). The ball oscillates with a period of T seconds. If the ball is removed, the spring is shortened by:",
+    "option_a": "\\(gT^2/(2\\pi)^2\\text{ metre}\\)",
+    "option_b": "\\(3T^2g/(2\\pi)^2\\text{ metre}\\)",
+    "option_c": "\\(Tm/k\\text{ metre}\\)",
+    "option_d": "\\(Tk/m\\text{ metre}\\)",
     "correct_option": "A",
-    "explanation": "Elongation x = mg/k. Since T = 2\\pi \\sqrt{m/k} => m/k = T^2 / (2\\pi)^2. Therefore x = g T^2 / (2\\pi)^2 metre.",
+    "explanation": "\\(Elongation x = mg/k\\). Since \\(T = 2\\pi \\sqrt{m/k} => m/k = T^2 / (2\\pi)^2. Therefore x = g T^2 / (2\\pi)^2 metre\\).",
     "topic": "Simple Harmonic Motion",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:10:47.901651"
+    "created_at": "2026-10-13T08:10:47.901651",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_144",
     "year": 2024,
     "section": "Physics",
     "question_number": 144,
-    "question_text": "A body of mass m attached to a spring oscillates with a time-period of 4s. If the mass of the body is increased by 4kg, its time-period increases by 2s. Find the value of initial mass m:",
+    "question_text": "A body of mass m attached to a spring oscillates with a time-period of \\(4s\\). If the mass of the body is increased by 4kg, its time-period increases by \\(2s\\). Find the value of initial mass \\(m\\):",
     "option_a": "1.2 kg",
     "option_b": "2.2 kg",
     "option_c": "3.2 kg",
     "option_d": "4.2 kg",
     "correct_option": "C",
-    "explanation": "T2/T1 = 6/4 = 3/2 = \\sqrt{(m+4)/m} => (m+4)/m = 9/4 => 4m + 16 = 9m => 5m = 16 => m = 3.2 kg.",
+    "explanation": "\\(T2/T1 = 6/4 = 3/2 = \\sqrt{(m+4)/m} => (m+4)/m = 9/4 => 4m + 16 = 9m => 5m = 16 => m = 3.2 kg\\).",
     "topic": "Simple Harmonic Motion",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.916715"
+    "created_at": "2026-10-13T08:10:47.916715",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_145",
     "year": 2024,
     "section": "Physics",
     "question_number": 145,
-    "question_text": "A body is executing S.H.M. When its displacement from the mean position is 4 cm and 5 cm, the corresponding velocity of the body is 10 cm/sec and 8 cm/sec. Then the time-period of the body is:",
-    "option_a": "2\\pi sec",
-    "option_b": "\\pi/2 sec",
-    "option_c": "\\pi sec",
-    "option_d": "3\\pi/2 sec",
+    "question_text": "A body is executing S.H.M. When its displacement from the mean position is 4 cm and 5 cm, the corresponding velocity of the body is \\(10 cm/sec\\) and \\(8 cm/sec\\). Then the time-period of the body is:",
+    "option_a": "\\(2\\pi\\text{ sec}\\)",
+    "option_b": "\\(\\pi/2\\text{ sec}\\)",
+    "option_c": "\\(\\pi\\text{ sec}\\)",
+    "option_d": "\\(3\\pi/2\\text{ sec}\\)",
     "correct_option": "C",
-    "explanation": "v^2 = \\omega^2(A^2 - x^2). 100 = \\omega^2(A^2 - 16), 64 = \\omega^2(A^2 - 25). Subtracting: 36 = 9\\omega^2 => \\omega = 2. T = 2\\pi/\\omega = \\pi sec.",
+    "explanation": "\\(v^2 = \\omega^2(A^2 - x^2). 100 = \\omega^2(A^2 - 16), 64 = \\omega^2(A^2 - 25). Subtracting: 36 = 9\\omega^2 => \\omega = 2. T = 2\\pi/\\omega = \\pi sec\\).",
     "topic": "Simple Harmonic Motion",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:10:47.931256"
+    "created_at": "2026-10-13T08:10:47.931256",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_146",
@@ -2650,122 +2815,130 @@
     "option_c": "476 Hz",
     "option_d": "478 Hz",
     "correct_option": "D",
-    "explanation": "Beat frequency = |f - f0| = 4. Tuning fork frequency f0 = (474 + 482)/2 = 478 Hz.",
+    "explanation": "Beat frequency \\(= |f - f0| = 4. Tuning fork\\) frequency \\(f0 = (474 + 482)/2 = 478 Hz\\).",
     "topic": "Waves and Sound / Beats",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.946151"
+    "created_at": "2026-10-13T08:10:47.946151",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_147",
     "year": 2024,
     "section": "Physics",
     "question_number": 147,
-    "question_text": "Velocity of sound in air: I. Increases with temperature, II. Decreases with temperature, III. Increase with pressure, IV. Is independent of pressure, V. Is independent of Temperature. Choose the correct answer:",
+    "question_text": "Velocity of sound in air: I. Increases with temperature, II. Decreases with temperature, III. Increase with pressure, IV. Is independent of pressure, \\(V\\). Is independent of Temperature. Choose the correct answer:",
     "option_a": "Only I and II are true",
     "option_b": "Only I and III are true",
     "option_c": "Only II and III are true",
     "option_d": "Only I and IV are true",
     "correct_option": "D",
-    "explanation": "Speed of sound v = \\sqrt{\\gamma RT / M} increases with temperature and is independent of pressure.",
+    "explanation": "Speed of \\(sound v = \\sqrt{\\gamma RT / M}\\) increases with temperature and is independent of pressure.",
     "topic": "Waves and Sound / Speed of Sound",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.960957"
+    "created_at": "2026-10-13T08:10:47.960957",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_148",
     "year": 2024,
     "section": "Physics",
     "question_number": 148,
-    "question_text": "A transverse periodic wave on a string with a linear mass density of 0.200 kg/m is described by the equation y = 0.05 \\sin(420t - 21.0x). Then tension in the string is equal to:",
-    "option_a": "32N",
-    "option_b": "42N",
-    "option_c": "66N",
-    "option_d": "80N",
+    "question_text": "A transverse periodic wave on a string with a linear mass density of \\(0.200 kg/m\\) is described by the equation \\(y = 0.05 \\sin(420t - 21.0x)\\). Then tension in the string is equal to:",
+    "option_a": "\\(32N\\)",
+    "option_b": "\\(42N\\)",
+    "option_c": "\\(66N\\)",
+    "option_d": "\\(80N\\)",
     "correct_option": "D",
-    "explanation": "Wave speed v = \\omega/k = 420 / 21.0 = 20 m/s. Tension T = \\mu * v^2 = 0.200 * 400 = 80 N.",
+    "explanation": "Wave speed \\(v = \\omega/k = 420 / 21.0 = 20 m/s. Tension T = \\mu * v^2 = 0.200 * 400 = 80 N\\).",
     "topic": "Waves on a String",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.975789"
+    "created_at": "2026-10-13T08:10:47.975789",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_149",
     "year": 2024,
     "section": "Physics",
     "question_number": 149,
-    "question_text": "A vessel contains an ideal monoatomic gas which expands at constant pressure, when heat Q is given to it. Then the work done in expansion is:",
-    "option_a": "Q",
-    "option_b": "3/5 Q",
-    "option_c": "2/5 Q",
-    "option_d": "2/3 Q",
+    "question_text": "A vessel contains an ideal monoatomic gas which expands at constant pressure, when heat \\(Q\\) is given to it. Then the work done in expansion is:",
+    "option_a": "\\(Q\\)",
+    "option_b": "\\(3/5 Q\\)",
+    "option_c": "\\(2/5 Q\\)",
+    "option_d": "\\(2/3 Q\\)",
     "correct_option": "C",
-    "explanation": "For monoatomic gas, Cp = (5/2)R. W = nR\\Delta T. Q = nCp\\Delta T = (5/2)nR\\Delta T. W/Q = 2/5 => W = (2/5)Q.",
+    "explanation": "For monoatomic gas, \\(Cp = (5/2)R. W = nR\\Delta T. Q = nCp\\Delta T = (5/2)nR\\Delta T. W/Q = 2/5 => W = (2/5)Q\\).",
     "topic": "Thermodynamics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:47.990873"
+    "created_at": "2026-10-13T08:10:47.990873",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_150",
     "year": 2024,
     "section": "Physics",
     "question_number": 150,
-    "question_text": "The volume of a certain mass of gas at constant pressure is doubled to its value at 0^\\circ C. The temperature of the gas will be:",
-    "option_a": "100^\\circ C",
-    "option_b": "173^\\circ C",
-    "option_c": "273^\\circ C",
-    "option_d": "546^\\circ C",
+    "question_text": "The volume of a certain mass of gas at constant pressure is doubled to its value at \\(0^\\circ\\text{C}\\). The temperature of the gas will be:",
+    "option_a": "\\(100^\\circ\\text{C}\\)",
+    "option_b": "\\(173^\\circ\\text{C}\\)",
+    "option_c": "\\(273^\\circ\\text{C}\\)",
+    "option_d": "\\(546^\\circ\\text{C}\\)",
     "correct_option": "C",
-    "explanation": "T1 = 273 K. Volume doubles at constant pressure => T2 = 2 * 273 = 546 K = 273^\\circ C.",
+    "explanation": "\\(T1 = 273 K\\). Volume doubles at constant pressure \\(=> T2 = 2 * 273 = 546 K = 273^\\circ\\text{C}\\).",
     "topic": "Kinetic Theory of Gases",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.006005"
+    "created_at": "2026-10-13T08:10:48.006005",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_151",
     "year": 2024,
     "section": "Physics",
     "question_number": 151,
-    "question_text": "A Carnot's engine is made to work between 200^\\circ C and 0^\\circ C first and then between 0^\\circ C and -200^\\circ C. The ratio of efficiencies of the engine in the two cases is:",
-    "option_a": "1.73 : 1",
-    "option_b": "1 : 1.73",
-    "option_c": "1 : 1",
-    "option_d": "1 : 2",
+    "question_text": "A Carnot's engine is made to work between \\(200^\\circ\\text{C}\\) and \\(0^\\circ\\text{C}\\) first and then between \\(0^\\circ\\text{C}\\) and \\(-200^\\circ\\text{C}\\). The ratio of efficiencies of the engine in the two cases is:",
+    "option_a": "\\(1.73 : 1\\)",
+    "option_b": "\\(1 : 1.73\\)",
+    "option_c": "\\(1 : 1\\)",
+    "option_d": "\\(1 : 2\\)",
     "correct_option": "B",
-    "explanation": "\\eta1 = 1 - 273/473 = 200/473. \\eta2 = 1 - 73/273 = 200/273. Ratio \\eta1/\\eta2 = 273/473 = 1 / 1.73.",
+    "explanation": "\\(\\eta1 = 1 - 273/473 = 200/473. \\eta2 = 1 - 73/273 = 200/273\\). Ratio \\(\\eta1/\\eta2 = 273/473 = 1 / 1.73\\).",
     "topic": "Thermodynamics / Carnot Engine",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:10:48.020668"
+    "created_at": "2026-10-13T08:10:48.020668",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_152",
     "year": 2024,
     "section": "Physics",
     "question_number": 152,
-    "question_text": "A perfect gas at 27^\\circ C is heated at constant pressure so as to triple its volume. The temperature of the gas will be:",
-    "option_a": "81^\\circ C",
-    "option_b": "900^\\circ C",
-    "option_c": "627^\\circ C",
-    "option_d": "450^\\circ C",
+    "question_text": "A perfect gas at \\(27^\\circ\\text{C}\\) is heated at constant pressure so as to triple its volume. The temperature of the gas will be:",
+    "option_a": "\\(81^\\circ\\text{C}\\)",
+    "option_b": "\\(900^\\circ\\text{C}\\)",
+    "option_c": "\\(627^\\circ\\text{C}\\)",
+    "option_d": "\\(450^\\circ\\text{C}\\)",
     "correct_option": "C",
-    "explanation": "T1 = 300 K. V2 = 3 V1 => T2 = 3 * 300 = 900 K = 627^\\circ C.",
+    "explanation": "\\(T1 = 300 K. V2 = 3 V1 => T2 = 3 * 300 = 900 K = 627^\\circ\\text{C}\\).",
     "topic": "Thermodynamics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.035802"
+    "created_at": "2026-10-13T08:10:48.035802",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_153",
     "year": 2024,
     "section": "Physics",
     "question_number": 153,
-    "question_text": "A progressive wave of frequency 500 Hz is travelling with a velocity of 360 m/s. How far apart are the two points 60^\\circ out of phase?:",
-    "option_a": "0.12 m",
-    "option_b": "0.14 m",
-    "option_c": "0.16 m",
-    "option_d": "0.18 m",
+    "question_text": "A progressive wave of frequency 500 Hz is travelling with a velocity of \\(360 m/s\\). How far apart are the two points \\(60^\\circ\\) out of phase?:",
+    "option_a": "\\(0.12\\text{ m}\\)",
+    "option_b": "\\(0.14\\text{ m}\\)",
+    "option_c": "\\(0.16\\text{ m}\\)",
+    "option_d": "\\(0.18\\text{ m}\\)",
     "correct_option": "A",
-    "explanation": "\\lambda = v/f = 360/500 = 0.72 m. \\Delta x = (\\lambda / 2\\pi) * \\Delta\\phi = (0.72 / 2\\pi) * (\\pi/3) = 0.12 m.",
+    "explanation": "\\(\\lambda = v/f = 360/500 = 0.72 m. \\Delta x = (\\lambda / 2\\pi) * \\Delta\\phi = (0.72 / 2\\pi) * (\\pi/3) = 0.12 m\\).",
     "topic": "Waves / Phase and Path Difference",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.050677"
+    "created_at": "2026-10-13T08:10:48.050677",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_154",
@@ -2778,10 +2951,11 @@
     "option_c": "The frequency of the source",
     "option_d": "Separation between source and observer",
     "correct_option": "D",
-    "explanation": "Doppler shift depends on relative velocities of source and observer, not on the distance/separation between them.",
+    "explanation": "Doppler shift depends on relative velocities of source and observer, not on the \\(distance/separation\\) between them.",
     "topic": "Waves and Sound / Doppler Effect",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.066096"
+    "created_at": "2026-10-13T08:10:48.066096",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_155",
@@ -2794,42 +2968,45 @@
     "option_c": "366 days",
     "option_d": "365 days",
     "correct_option": "A",
-    "explanation": "By Kepler's Third Law, T2 = T1 * (R2/R1)^{3/2} = 365 * 2^{1.5} = 365 * 2.828 \\approx 1032 days.",
+    "explanation": "By Kepler's Third \\(Law, T2 = T1 * (R2/R1)^{3/2} = 365 * 2^{1.5} = 365 * 2.828 \\approx 1032 days\\).",
     "topic": "Gravitation / Kepler's Laws",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.081206"
+    "created_at": "2026-10-13T08:10:48.081206",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_156",
     "year": 2024,
     "section": "Physics",
     "question_number": 156,
-    "question_text": "An object of mass 2kg moves along a circle of radius 4m. If it moves with constant speed of 10 m/s, then work done by the centripetal force is:",
+    "question_text": "An object of mass 2kg moves along a circle of \\(radius 4m\\). If it moves with constant speed of \\(10 m/s\\), then work done by the centripetal force is:",
     "option_a": "-10 J",
     "option_b": "zero",
     "option_c": "+10 J",
     "option_d": "100 J",
     "correct_option": "B",
-    "explanation": "Centripetal force is perpendicular to displacement (F.ds = 0), so work done is always zero.",
+    "explanation": "Centripetal force is perpendicular to \\(displacement (F.ds = 0), so\\) work done is always zero.",
     "topic": "Work, Energy and Power / Circular Motion",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.097710"
+    "created_at": "2026-10-13T08:10:48.097710",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_157",
     "year": 2024,
     "section": "Physics",
     "question_number": 157,
-    "question_text": "Displacement of a particle varies with time given by x(t) = 3t^3 - 3t^2 + 2t + 6. Acceleration of this particle at t = 1 sec will be:",
+    "question_text": "Displacement of a particle varies with time given by \\(x(t) = 3t^3 - 3t^2 + 2t + 6\\). Acceleration of this particle at \\(t = 1 sec\\) will be:",
     "option_a": "14 m/s^2",
     "option_b": "16 m/s^2",
     "option_c": "18 m/s^2",
     "option_d": "20 m/s^2",
     "correct_option": "B",
-    "explanation": "Differentiating displacement: v(t) = dx/dt, a(t) = d^2x/dt^2. Answer matches official key (B) 16 m/s^2.",
+    "explanation": "\\(Differentiating displacement: v(t) = dx/dt, a(t) = d^2x/dt^2. Answer matches official key (B) 16 m/s^2\\).",
     "topic": "Kinematics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.114195"
+    "created_at": "2026-10-13T08:10:48.114195",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_158",
@@ -2842,10 +3019,11 @@
     "option_c": "Energy",
     "option_d": "Acceleration",
     "correct_option": "B",
-    "explanation": "Impulse J = \\int F dt = area under F-t graph, which represents change in linear momentum.",
+    "explanation": "\\(Impulse J = \\int F dt =\\) area under F-t graph, which represents change in linear momentum.",
     "topic": "Laws of Motion / Impulse",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.129258"
+    "created_at": "2026-10-13T08:10:48.129258",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_159",
@@ -2853,102 +3031,108 @@
     "section": "Physics",
     "question_number": 159,
     "question_text": "Angle between electric dipole moment and electric field at a point on the perpendicular bisector is:",
-    "option_a": "0^\\circ",
-    "option_b": "45^\\circ",
-    "option_c": "90^\\circ",
-    "option_d": "180^\\circ",
+    "option_a": "\\(0^\\circ\\)",
+    "option_b": "\\(45^\\circ\\)",
+    "option_c": "\\(90^\\circ\\)",
+    "option_d": "\\(180^\\circ\\)",
     "correct_option": "D",
     "explanation": "Electric field on equatorial line is antiparallel to electric dipole moment, forming an angle of 180 degrees.",
     "topic": "Electrostatics / Electric Dipole",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.144085"
+    "created_at": "2026-10-13T08:10:48.144085",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_160",
     "year": 2024,
     "section": "Physics",
     "question_number": 160,
-    "question_text": "A point charge 2 \\mu C placed at a distance 'r' from an electric dipole experiences a force of 64 \\times 10^{-4} N. What force does the same charge experience when placed at a distance 2r?:",
-    "option_a": "32 \\times 10^{-4} N",
-    "option_b": "8 \\times 10^{-4} N",
-    "option_c": "64 \\times 10^{-4} N",
-    "option_d": "64 \\times 10^{-6} N",
+    "question_text": "\\(A\\) point charge \\(2 \\mu C\\) placed at a distance 'r' from an electric dipole experiences a force of \\(64 \\times 10^{-4} N\\). What force does the same charge experience when placed at \\(a distance 2r\\)?:",
+    "option_a": "\\(32 \\times 10^{-4}\\text{ N}\\)",
+    "option_b": "\\(8 \\times 10^{-4}\\text{ N}\\)",
+    "option_c": "\\(64 \\times 10^{-4}\\text{ N}\\)",
+    "option_d": "\\(64 \\times 10^{-6}\\text{ N}\\)",
     "correct_option": "B",
-    "explanation": "Dipole field E \\propto 1/r^3. F(2r) = F(r)/2^3 = 64e-4 / 8 = 8e-4 N.",
+    "explanation": "Dipole field \\(E \\propto 1/r^3. F(2r) = F(r)/2^3 = 64e-4 / 8 = 8e-4 N\\).",
     "topic": "Electrostatics / Electric Dipole",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.159717"
+    "created_at": "2026-10-13T08:10:48.159717",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_161",
     "year": 2024,
     "section": "Physics",
     "question_number": 161,
-    "question_text": "Electric flux through spherical Gaussian surface of radius 2m is 4 \\times 10^{-4} N m^2 C^{-1}. If the radius of this surface is doubled, then the flux will be:",
-    "option_a": "4 \\times 10^{-4} N m^2 C^{-1}",
-    "option_b": "8 \\times 10^{-4} N m^2 C^{-1}",
-    "option_c": "2 \\times 10^{-4} N m^2 C^{-1}",
-    "option_d": "12 \\times 10^{-4} N m^2 C^{-1}",
+    "question_text": "Electric flux through spherical Gaussian surface of \\(radius 2m\\) is \\(4 \\times 10^{-4} N m^2 C^{-1}\\). If the radius of this surface is doubled, then the flux will be:",
+    "option_a": "\\(4 \\times 10^{-4} N m^2 C^{-1}\\)",
+    "option_b": "\\(8 \\times 10^{-4} N m^2 C^{-1}\\)",
+    "option_c": "\\(2 \\times 10^{-4} N m^2 C^{-1}\\)",
+    "option_d": "\\(12 \\times 10^{-4} N m^2 C^{-1}\\)",
     "correct_option": "A",
     "explanation": "By Gauss's Law, electric flux depends only on enclosed charge, independent of the radius of the Gaussian surface.",
     "topic": "Electrostatics / Gauss Law",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.181086"
+    "created_at": "2026-10-13T08:10:48.181086",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_162",
     "year": 2024,
     "section": "Physics",
     "question_number": 162,
-    "question_text": "A wire of resistance 16 \\Omega is stretched to double its length. What will be the new resistance of the wire?:",
-    "option_a": "16 \\Omega",
-    "option_b": "8 \\Omega",
-    "option_c": "32 \\Omega",
-    "option_d": "64 \\Omega",
+    "question_text": "\\(A\\) wire of resistance \\(16 \\Omega\\) is stretched to double its length. What will be the new resistance of the wire?:",
+    "option_a": "\\(16 \\Omega\\)",
+    "option_b": "\\(8 \\Omega\\)",
+    "option_c": "\\(32 \\Omega\\)",
+    "option_d": "\\(64 \\Omega\\)",
     "correct_option": "D",
-    "explanation": "Resistance R \\propto l^2 when volume is conserved. Doubling length quadruples resistance: 4 * 16 = 64 \\Omega.",
+    "explanation": "Resistance \\(R \\propto l^2\\) when volume is conserved. Doubling length quadruples resistance: \\(4 * 16 = 64 \\Omega\\).",
     "topic": "Current Electricity / Resistance",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.198508"
+    "created_at": "2026-10-13T08:10:48.198508",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_163",
     "year": 2024,
     "section": "Physics",
     "question_number": 163,
-    "question_text": "Two identical cells of emf 3V and internal resistance 1 \\Omega are connected in series to a resistor 4 \\Omega. Then the current passing through the circuit is:",
-    "option_a": "0.5 A",
-    "option_b": "0.75 A",
-    "option_c": "1.0 A",
-    "option_d": "1.25 A",
+    "question_text": "Two identical cells of \\(emf 3V\\) and internal resistance \\(1 \\Omega\\) are connected in series to \\(a resistor 4 \\Omega\\). Then the current passing through the circuit is:",
+    "option_a": "\\(0.5 A\\)",
+    "option_b": "\\(0.75 A\\)",
+    "option_c": "\\(1.0 A\\)",
+    "option_d": "\\(1.25 A\\)",
     "correct_option": "C",
-    "explanation": "Total EMF = 6V. Total resistance = 4 + 1 + 1 = 6 \\Omega. Current I = 6V / 6 \\Omega = 1.0 A.",
+    "explanation": "\\(Total EMF = 6V. Total\\) resistance \\(= 4 + 1 + 1 = 6 \\Omega\\). Current \\(I = 6V / 6 \\Omega = 1.0 A\\).",
     "topic": "Current Electricity / Cells in Series",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.213727"
+    "created_at": "2026-10-13T08:10:48.213727",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_164",
     "year": 2024,
     "section": "Physics",
     "question_number": 164,
-    "question_text": "A circular coil of radius 'a' has N number of turns. When a current I flows through it, magnetic field at the center is found to be 0.4 T. What will be the magnetic field at the center if number of turns is doubled, radius is halved and current doubled?:",
-    "option_a": "0.8 T",
-    "option_b": "1.6 T",
-    "option_c": "3.2 T",
-    "option_d": "6.4 T",
+    "question_text": "A circular coil of radius 'a' has N number of turns. When a current I flows through it, magnetic field at the center is found to be \\(0.4 T\\). What will be the magnetic field at the center if number of turns is doubled, radius is halved and current doubled?:",
+    "option_a": "\\(0.8 T\\)",
+    "option_b": "\\(1.6 T\\)",
+    "option_c": "\\(3.2 T\\)",
+    "option_d": "\\(6.4 T\\)",
     "correct_option": "C",
-    "explanation": "B = \\mu_0 N I / (2a). New B' = \\mu_0 (2N) (2I) / (2(a/2)) = 8 B = 8 * 0.4 = 3.2 T.",
+    "explanation": "\\(B = \\mu_0 N I / (2a). New B' = \\mu_0 (2N) (2I) / (2(a/2)) = 8 B = 8 * 0.4 = 3.2 T\\).",
     "topic": "Magnetic Effects of Current",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.229100"
+    "created_at": "2026-10-13T08:10:48.229100",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_165",
     "year": 2024,
     "section": "Physics",
     "question_number": 165,
-    "question_text": "A charge of 2 C moves with a velocity \\vec{v} = (2\\hat{i} + 3\\hat{j}) m/s enters a uniform magnetic field \\vec{B} = (2\\hat{k}) T. Then the path traced by the particle is:",
+    "question_text": "\\(A\\) charge of \\(2 C\\) moves with a velocity \\(\\vec{v} = (2\\hat{i} + 3\\hat{j}) m/s enters a uniform magnetic\\) field \\(\\vec{B} = (2\\hat{k}) T\\). Then the path traced by the particle is:",
     "option_a": "Straight line",
     "option_b": "Helix",
     "option_c": "Circle",
@@ -2957,7 +3141,8 @@
     "explanation": "Velocity vector is perpendicular to magnetic field (v in xy plane, B along z), hence the particle follows a circular path.",
     "topic": "Moving Charges and Magnetism",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.244768"
+    "created_at": "2026-10-13T08:10:48.244768",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_166",
@@ -2965,31 +3150,33 @@
     "section": "Physics",
     "question_number": 166,
     "question_text": "Two particles with their charges in the ratio 2:3 and their momenta in the ratio 3:4 enter the same magnetic field. Ratio of the radius of circular paths traced by them is:",
-    "option_a": "9:8",
-    "option_b": "1:2",
-    "option_c": "2:1",
-    "option_d": "8:9",
+    "option_a": "\\(9:8\\)",
+    "option_b": "\\(1:2\\)",
+    "option_c": "\\(2:1\\)",
+    "option_d": "\\(8:9\\)",
     "correct_option": "A",
-    "explanation": "Radius r = p / (q B). r1/r2 = (p1/p2) * (q2/q1) = (3/4) * (3/2) = 9/8.",
+    "explanation": "\\(Radius r = p / (q B). r1/r2 = (p1/p2) * (q2/q1) = (3/4) * (3/2) = 9/8\\).",
     "topic": "Moving Charges and Magnetism",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.260639"
+    "created_at": "2026-10-13T08:10:48.260639",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_167",
     "year": 2024,
     "section": "Physics",
     "question_number": 167,
-    "question_text": "A very long current carrying wire produces a magnetic field of 3T at a distance 'd' from it. The same wire at a distance 3d will produce a magnetic field of:",
-    "option_a": "3T",
-    "option_b": "1T",
-    "option_c": "6T",
-    "option_d": "9T",
+    "question_text": "\\(A\\) very long current carrying wire produces a magnetic field of \\(3T\\) at a distance 'd' from it. The same wire at \\(a distance 3d\\) will produce a magnetic field of:",
+    "option_a": "\\(3T\\)",
+    "option_b": "\\(1T\\)",
+    "option_c": "\\(6T\\)",
+    "option_d": "\\(9T\\)",
     "correct_option": "B",
-    "explanation": "Magnetic field B \\propto 1/d. Tripling the distance reduces the field to B/3 = 3T / 3 = 1T.",
+    "explanation": "Magnetic field \\(B \\propto 1/d. Tripling\\) the distance reduces the field to \\(B/3 = 3T / 3 = 1T\\).",
     "topic": "Moving Charges and Magnetism",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.276855"
+    "created_at": "2026-10-13T08:10:48.276855",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_168",
@@ -2997,31 +3184,33 @@
     "section": "Physics",
     "question_number": 168,
     "question_text": "An object is placed at the center of curvature of a concave mirror. Then linear magnification (m) of the mirror for this position will be:",
-    "option_a": "+2",
+    "option_a": "\\(+2\\)",
     "option_b": "-2",
     "option_c": "-1",
-    "option_d": "+1",
+    "option_d": "\\(+1\\)",
     "correct_option": "C",
-    "explanation": "At the center of curvature C, the real, inverted image has equal size to the object, so m = -1.",
+    "explanation": "At the center of curvature C, the real, inverted image has equal size to the \\(object, so m = -1\\).",
     "topic": "Ray Optics / Concave Mirror",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.296257"
+    "created_at": "2026-10-13T08:10:48.296257",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_169",
     "year": 2024,
     "section": "Physics",
     "question_number": 169,
-    "question_text": "Critical angle for a medium is 45^\\circ. Then what will be the refractive index of this medium?:",
+    "question_text": "Critical angle for a medium is \\(45^\\circ\\). Then what will be the refractive index of this medium?:",
     "option_a": "3",
     "option_b": "1.5",
     "option_c": "1.33",
-    "option_d": "\\sqrt{2}",
+    "option_d": "\\(\\sqrt{2}\\)",
     "correct_option": "D",
-    "explanation": "\\mu = 1 / sin(C) = 1 / sin(45^\\circ) = \\sqrt{2}.",
+    "explanation": "\\(\\mu = 1 / sin(C) = 1 / sin(45^\\circ) = \\sqrt{2}\\).",
     "topic": "Ray Optics / Total Internal Reflection",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.312207"
+    "created_at": "2026-10-13T08:10:48.312207",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_170",
@@ -3037,7 +3226,8 @@
     "explanation": "The number of emitted photoelectrons per second is directly proportional to incident intensity.",
     "topic": "Dual Nature of Radiation and Matter",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.328247"
+    "created_at": "2026-10-13T08:10:48.328247",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_171",
@@ -3048,44 +3238,47 @@
     "option_a": "2",
     "option_b": "1",
     "option_c": "0",
-    "option_d": "\\infty",
+    "option_d": "\\(\\infty\\)",
     "correct_option": "B",
     "explanation": "By definition, refractive index of vacuum is 1.",
     "topic": "Ray Optics / Refraction",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.343692"
+    "created_at": "2026-10-13T08:10:48.343692",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_172",
     "year": 2024,
     "section": "Physics",
     "question_number": 172,
-    "question_text": "Angular width of central maximum in a single slit diffraction is 5^\\circ when a light of 5000 \\AA is used. Angular width of central maximum when a light of 7000 \\AA is used will be:",
-    "option_a": "7^\\circ",
-    "option_b": "5^\\circ",
-    "option_c": "3^\\circ",
-    "option_d": "10^\\circ",
+    "question_text": "Angular width of central maximum in a single slit diffraction is \\(5^\\circ\\) when a light of \\(5000 \\AA\\) is used. Angular width of central maximum when a light of \\(7000 \\AA\\) is used will be:",
+    "option_a": "\\(7^\\circ\\)",
+    "option_b": "\\(5^\\circ\\)",
+    "option_c": "\\(3^\\circ\\)",
+    "option_d": "\\(10^\\circ\\)",
     "correct_option": "A",
-    "explanation": "Angular width 2\\theta \\propto \\lambda. New angular width = 5^\\circ * (7000/5000) = 7^\\circ.",
+    "explanation": "\\(Angular width 2\\theta \\propto \\lambda. New angular width = 5^\\circ * (7000/5000) = 7^\\circ\\).",
     "topic": "Wave Optics / Diffraction",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.359336"
+    "created_at": "2026-10-13T08:10:48.359336",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_173",
     "year": 2024,
     "section": "Physics",
     "question_number": 173,
-    "question_text": "The radius of the innermost electron orbit of a hydrogen atom is 5.3 \\times 10^{-11} m. Radius of the orbit n=3 will be:",
-    "option_a": "47.7 \\times 10^{-11} m",
-    "option_b": "15.9 \\times 10^{-11} m",
-    "option_c": "10.6 \\times 10^{-11} m",
-    "option_d": "5.3 \\times 10^{-11} m",
+    "question_text": "The radius of the innermost electron orbit of a hydrogen atom is \\(5.3 \\times 10^{-11} m. Radius\\) of the \\(orbit n=3\\) will be:",
+    "option_a": "\\(47.7 \\times 10^{-11}\\text{ m}\\)",
+    "option_b": "\\(15.9 \\times 10^{-11}\\text{ m}\\)",
+    "option_c": "\\(10.6 \\times 10^{-11}\\text{ m}\\)",
+    "option_d": "\\(5.3 \\times 10^{-11}\\text{ m}\\)",
     "correct_option": "A",
-    "explanation": "rn = r1 * n^2. For n=3, r3 = 5.3e-11 * 3^2 = 47.7e-11 m.",
+    "explanation": "\\(rn = r1 * n^2\\). For \\(n=3, r3 = 5.3e-11 * 3^2 = 47.7e-11 m\\).",
     "topic": "Atoms / Bohr Model",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.375471"
+    "created_at": "2026-10-13T08:10:48.375471",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_174",
@@ -3098,10 +3291,11 @@
     "option_c": "7.65 T years",
     "option_d": "8.65 T years",
     "correct_option": "B",
-    "explanation": "A/A0 = (1/2)^{t/T} = 0.01 => t/T = log(100)/log(2) = 2 / 0.3010 \\approx 6.65 T years.",
+    "explanation": "\\(A/A0 = (1/2)^{t/T} = 0.01 => t/T = log(100)/log(2) = 2 / 0.3010 \\approx 6.65 T years\\).",
     "topic": "Nuclei / Radioactivity",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:10:48.391359"
+    "created_at": "2026-10-13T08:10:48.391359",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_175",
@@ -3117,23 +3311,25 @@
     "explanation": "Output ripple frequency of a half-wave rectifier is identical to the input AC frequency (50 Hz).",
     "topic": "Semiconductor Electronics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.407747"
+    "created_at": "2026-10-13T08:10:48.407747",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_176",
     "year": 2024,
     "section": "Physics",
     "question_number": 176,
-    "question_text": "In Young's double-slit experiment, the slits are separated by 0.28mm and the screen is placed 1.4m away. The distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm. The wavelength of the light used is:",
-    "option_a": "4000 \\AA",
-    "option_b": "5000 \\AA",
-    "option_c": "6000 \\AA",
-    "option_d": "7000 \\AA",
+    "question_text": "In Young's double-slit experiment, the slits are separated by 0.28mm and the screen is placed \\(1.4m away\\). The distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm. The wavelength of the light used is:",
+    "option_a": "\\(4000 \\AA\\)",
+    "option_b": "\\(5000 \\AA\\)",
+    "option_c": "\\(6000 \\AA\\)",
+    "option_d": "\\(7000 \\AA\\)",
     "correct_option": "C",
-    "explanation": "y4 = 4 * (\\lambda D / d) = 1.2 cm => \\lambda = (1.2e-2 * 0.28e-3) / (4 * 1.4) = 6000 \\AA.",
+    "explanation": "\\(y4 = 4 * (\\lambda D / d) = 1.2 cm => \\lambda = (1.2e-2 * 0.28e-3) / (4 * 1.4) = 6000 \\AA\\).",
     "topic": "Wave Optics / Interference",
     "difficulty": "Medium",
-    "created_at": "2026-10-13T08:10:48.424397"
+    "created_at": "2026-10-13T08:10:48.424397",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_177",
@@ -3141,15 +3337,16 @@
     "section": "Physics",
     "question_number": 177,
     "question_text": "Monochromatic light of wavelength 589 nm is incident from air on a water surface. Speed of refracted light will be (Given refractive index of water is 1.33):",
-    "option_a": "2.26 \\times 10^8 m/s",
-    "option_b": "3.26 \\times 10^8 m/s",
-    "option_c": "4.26 \\times 10^8 m/s",
-    "option_d": "5.26 \\times 10^8 m/s",
+    "option_a": "\\(2.26 \\times 10^8\\text{ m/s}\\)",
+    "option_b": "\\(3.26 \\times 10^8\\text{ m/s}\\)",
+    "option_c": "\\(4.26 \\times 10^8\\text{ m/s}\\)",
+    "option_d": "\\(5.26 \\times 10^8\\text{ m/s}\\)",
     "correct_option": "A",
-    "explanation": "v = c / \\mu = (3 \\times 10^8) / 1.33 = 2.26 \\times 10^8 m/s.",
+    "explanation": "\\(v = c / \\mu = (3 \\times 10^8) / 1.33 = 2.26 \\times 10^8 m/s\\).",
     "topic": "Ray Optics / Refraction",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.443546"
+    "created_at": "2026-10-13T08:10:48.443546",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_178",
@@ -3162,10 +3359,11 @@
     "option_c": "-40 cm",
     "option_d": "+40 cm",
     "correct_option": "A",
-    "explanation": "1/F = 1/f1 + 1/f2 = 1/30 - 1/20 = -1/60 => F = -60 cm.",
+    "explanation": "\\(1/F = 1/f1 + 1/f2 = 1/30 - 1/20 = -1/60 => F = -60 cm\\).",
     "topic": "Ray Optics / Combination of Lenses",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.459661"
+    "created_at": "2026-10-13T08:10:48.459661",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_179",
@@ -3181,22 +3379,24 @@
     "explanation": "Light Emitting Diode converts electrical energy directly into light energy via electroluminescence.",
     "topic": "Semiconductor Electronics",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.475939"
+    "created_at": "2026-10-13T08:10:48.475939",
+    "shift": null
   },
   {
     "id": "IMU_2024_PHY_180",
     "year": 2024,
     "section": "Physics",
     "question_number": 180,
-    "question_text": "Angle of minimum deviation for an equilateral prism is found to be 30^\\circ. Then the refractive index of the material of the prism is:",
+    "question_text": "Angle of minimum deviation for an equilateral prism is found to be \\(30^\\circ\\). Then the refractive index of the material of the prism is:",
     "option_a": "3",
-    "option_b": "3/2",
+    "option_b": "\\(3/2\\)",
     "option_c": "1.5",
-    "option_d": "\\sqrt{2}",
+    "option_d": "\\(\\sqrt{2}\\)",
     "correct_option": "D",
-    "explanation": "\\mu = sin((A + \\delta_m)/2) / sin(A/2) = sin(45^\\circ) / sin(30^\\circ) = (1/\\sqrt{2}) / (1/2) = \\sqrt{2}.",
+    "explanation": "\\(\\mu = sin((A + \\delta_m)/2) / sin(A/2) = sin(45^\\circ) / sin(30^\\circ) = (1/\\sqrt{2}) / (1/2) = \\sqrt{2}\\).",
     "topic": "Ray Optics / Prism",
     "difficulty": "Easy",
-    "created_at": "2026-10-13T08:10:48.491836"
+    "created_at": "2026-10-13T08:10:48.491836",
+    "shift": null
   }
 ]
